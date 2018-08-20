@@ -1,0 +1,63 @@
+
+<div class="container">
+    <div class="row plan-top">
+    	<button class="btn btn-lg" style="margin-right:15px;background-color:gray;" ng-click="goback()">返回</button>
+        <button class="btn btn-lg btn-primary" ng-if="fsubmit" ng-click="doSubmit()">提交</button>
+        <button class="btn btn-lg btn-success" ng-if="fratify" ng-click="doRatify()">批准</button>
+        <button class="btn btn-lg btn-danger" ng-if="freject" ng-click="doReject()">驳回</button>
+        <span class="well" ng-if="pfunit.status==0">未提交</span>
+        <span class="well" ng-if="pfunit.status==1">已提交</span>
+        <span class="well" ng-if="pfunit.status==2">已批准</span>
+        <span class="well" ng-if="pfunit.status==3">已驳回</span>
+        <button class="btn btn-lg btn-success" ng-if="freset" ng-click="doReset()">初始化数据</button>
+        <span ng-if="freset" style="" class="">（第一次进去必须点击初始化数据）</span>
+    </div>
+    <div class="row plan-user" style=" margin-top: 20px;margin-bottom: 20px;font-size: 17px;">
+        <div class="col-md-6">经销商:
+        <span ng-bind="pfunit.name"></span>
+        </div>
+    </div>
+    <div class="data-top">
+        <table class="table table-hover table-bordered">
+            <tr class="success">
+                <td class="col-md-2">编号</td>
+                <td class="col-md-3 txc">分单</td>
+                <td class="col-md-2 txc">提报金额</td>
+                <td class="col-md-2 txc">修改后提报金额</td>
+                <td class="col-md-1">详情</td>
+                <td class="col-md-2">订单状态</td>
+            </tr>
+        </table>
+    </div>
+    <div class="plan-data">
+        <table class="table table-hover table-striped">
+            <tbody>
+            <tr ng-repeat="fitem in flist">
+                <td class="col-md-2" ng-bind="fitem.name"></td>
+                <td class="col-md-3 txc" ng-bind="fitem.truename"></td>
+                <td class="col-md-2 txc" ng-bind="fitem.amt"></td>
+                <td class="col-md-2 txc" ng-bind="fitem.xamt"></td>
+                 <td class="col-md-1"> <button class="btn btn-success" ng-click="goItem(fitem)">详情</button> </td>
+                 <td class="col-md-2" ng-if="fitem.status==0"><span class="well plan-flag1" ng-bind="fitem.status_name"></span></td>
+                 <td class="col-md-2" ng-if="fitem.status==1"><span class="well plan-flag2" ng-bind="fitem.status_name"></span></td>
+                 <td class="col-md-2" ng-if="fitem.status==2"><span class="well plan-flag1" ng-bind="fitem.status_name"></span></td>
+                 <td class="col-md-2" ng-if="fitem.status==3"><span class="well plan-flag1" ng-bind="fitem.status_name"></span></td>
+                 <td class="col-md-2" ng-if="fitem.status==4"><span class="well plan-flag1" ng-bind="fitem.status_name"></span></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="data-bottom">
+        <table class="table table-hover table-bordered">
+            <tr class="success">
+                <td class="col-md-2">合计</td>
+                <td class="col-md-3"></td>
+                <td class="col-md-2 txc"><span style="color:red;" ng-bind="sumAmt"></span></td>
+                <td class="col-md-2 txc"><span style="color:red;" ng-bind="sumxAmt"></span></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-2"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

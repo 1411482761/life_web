@@ -1,0 +1,10 @@
+.title{
+	background-color: #5F5F5F;
+	-webkit-border-radius: 18px;
+}
+#container{
+	width: 99%;
+	height: 1000px;
+	background-color: #191919;
+	color: white;
+}

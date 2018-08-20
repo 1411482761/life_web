@@ -1,0 +1,88 @@
+﻿@CHARSET "UTF-8";
+#down > ul{
+	margin-top: 20px;
+	}
+#banner{
+	background-color: #FFFFFF;
+}
+#refresh,#deploy,#search{
+	-webkit-border-radius: 4px;
+	background-color: #878787;
+}
+#loading {
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 30px #06C;
+}
+#loadinglocale{
+	position: absolute;
+	width: 74px;
+	height: 22px;
+	left: 50%;
+	top: 50%;
+	margin-left: -37px;
+	margin-top: -11px;
+	text-align: center;
+	background-color: transparent;
+	color: #fff;
+	font-size: 12px;
+}
+#content {
+	background-image: url("/fair/ipad/img/body.jpg");
+    background: url("/fair/ipad/img/02/background2.jpg");
+}
+#active{
+	background: white;
+}
+#active-words{
+	color:#999;
+}
+.goods {
+    height:auto;
+    margin-left: 22px;
+    margin-right: 27px;
+    border: 1px solid #878787;
+    margin-top: 5px;
+    background-color: #FFFFFF;
+    /*margin-bottom:auto;*/
+}
+.a11,.a12 {
+	width: 60px;
+	height: 18px;
+	float: left;
+	text-align: left;
+}
+.a12{
+	width: 30px;
+}
+.a2 {
+	width: 95px;
+	height: 18px;
+	float: left;
+	text-align: right;
+}
+.a4 {
+	width: 90px;
+}
+.a4 ul{
+	position: absolute;
+	top: 4px;
+	right: 0px;
+}
+.circle{
+	float: left;
+	width: 10px;
+	height: 10px;
+	background-color: #A51E24;
+	margin-left: 2px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+}
+#footer {
+	background-color: #FFFFFF;
+}
+.list{
+	top:-5px;
+	margin-top:0px;
+}

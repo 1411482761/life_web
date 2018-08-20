@@ -1,0 +1,53 @@
+{
+    "list": [
+        {
+            "suggest": "","button":true
+        },
+        {
+            "mark": "","button":true
+        },
+        {
+            "batch": "","button":true
+        },
+        {
+            "manual": "","button":true
+        },
+        {
+            "kpi": "","button":true
+        },
+        {
+            "ranking": "","button":true
+        },
+        {
+            "cart": "","button":true
+        },
+        {
+            "quickorder": "","button":true
+        },
+        {
+            "refresh": "","button":true
+        }
+    ],
+    "detail": [
+        {
+            "suggest": "","button":true
+        },
+        {
+            "info": "","button":true
+        },
+        {
+            "comment": "","button":true
+        },
+        {
+            "follow": "","button":true
+        },
+        {
+            "setfollow": "","button":true
+        }
+    ],
+    "order": [
+        {
+            "comment": "","button":true
+        }
+    ]
+}

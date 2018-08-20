@@ -1,0 +1,26 @@
+.view011-button{
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color: #878787;
+	color: #FFFFFF;
+}
+#view011-dimensions ul li .dimensionname{
+	color: #FFFFFF;
+}
+.view011-max{
+	-webkit-border-radius: 4px;
+	background-color: #878787;
+	color: #FFFFFF;
+}
+#view011-table-max{
+	-webkit-border-radius: 4px;
+	background-color: #878787;
+	color: #FFFFFF;
+}
+.active{
+	background: url('/fair/ipad/img/02/active.png') repeat-x;
+}
+.view011-table-footer{
+	background-color: #999999;
+	color: #FFFFFF;
+}

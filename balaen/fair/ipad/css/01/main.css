@@ -1,0 +1,22 @@
+body{
+	color: white;
+	background-color: #101010;
+}
+thead{
+	background-color: #0076A3;
+}
+.mainpageajax{
+	background-color: #5b5b5b;
+}
+#footer{
+	position: absolute;
+	z-index: 1000;
+	bottom: 0px;
+	z-index: 10;
+	width: 100%;
+	height: 26px;
+	background-color: #101010;
+}
+#footer-left,#footer-right{
+	color: #cccccc;
+}

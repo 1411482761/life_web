@@ -1,0 +1,88 @@
+<ion-view title="storeInfoPage">
+
+    <ion-header-bar class="bar bar-header bar-light">
+        <button ng-click="$goBack()" class="button button-clear icon ion-ios-arrow-back"></button>
+        <h1 class="titleClass title">店铺信息查看</h1>
+    </ion-header-bar>
+
+    <ion-content>
+        <div>
+            <p class="pClass">店铺分类</p>
+            <table class="mainTableFirst">
+                <tr>
+                    <td>地区</td>
+                </tr>
+                <tr>
+                    <td>城市级别</td>
+                </tr>
+                <tr>
+                    <td>客户分类</td>
+                </tr>
+                <tr>
+                    <td>打折程度</td>
+                </tr>
+                <tr>
+                    <td>面积</td>
+                </tr>
+            </table>
+            <div class="mainTableSecond">
+                <!--整体灰色，s1[1] = 1 的 设为黑色-->
+                <div class="mainTableSecondBorder">
+                    <div ng-style="{'width': scrollBox1}" style="float: left" ng-repeat="s1 in storedim1" class="mainTableSecondDiv" ng-class="{'CheckClass':s1[1]}" ng-bind="s1[0]"></div><!-- colspan="2" 第一个td占两个格-->
+                </div>
+                <br/>
+                <div>
+                    <div  ng-style="{'width': scrollBox2}" style="float: left" ng-repeat="s2 in storedim2" class="mainTableSecondDiv"  ng-class="{'CheckClass':s2[1]}" ng-bind="s2[0]"></div>
+                </div>
+                <br/>
+                <div>
+                    <div  ng-style="{'width': scrollBox3}" style="float: left" ng-repeat="s3 in storedim3" class="mainTableSecondDiv"  ng-class="{'CheckClass':s3[1]}" ng-bind="s3[0]"></div>
+                </div>
+                <br/>
+                <div>
+                    <div  ng-style="{'width': scrollBox4}" style="float: left" ng-repeat="s4 in storedim4" class="mainTableSecondDiv"  ng-class="{'CheckClass':s4[1]}" ng-bind="s4[0]"></div>
+                </div>
+                <br/>
+                <div>
+                    <div  ng-style="{'width': scrollBox5}" style="float: left" ng-repeat="s5 in storedim5" class="mainTableSecondDiv"  ng-class="{'CheckClass':s5[1]}" ng-bind="s5[0]"></div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+
+            <p class="pClass">产品分类、SKU范围</p>
+            <table class="mainTableThird">
+                <tr>
+                    <td>品牌驱动</td>
+                </tr>
+                <tr>
+                    <td>客群驱动</td>
+                </tr>
+                <tr>
+                    <td>天气驱动</td>
+                </tr>
+                <tr>
+                    <td>面积驱动</td>
+                </tr>
+            </table>
+            <table class="mainTableFive">
+                <!--整体灰色，s1[1] = 1 的 设为黑色-->
+                <tr>
+                    <td  ng-repeat="s6 in storedim6"><a ng-click="customerDrive(s6)" ng-class="{'button icon-right ion-chevron-right CheckClass':s6[2]}" class="buttonCss icon-right ion-chevron-right button notCheckClass" ng-bind="s6[1]"></a></td>
+                </tr>
+
+                <tr>
+                    <td  ng-repeat="s7 in storedim7"><a ng-click="brandDrive(s7)" ng-class="{'button icon-right ion-chevron-right CheckClass':s7[2]}" class="buttonCss icon-right ion-chevron-right button notCheckClass" ng-bind="s7[1]"></a></td>
+                </tr>
+                <tr>
+                    <td  ng-repeat="s8 in storedim8"><a ng-click="weatherDrive(s8)" ng-class="{'button icon-right ion-chevron-right CheckClass':s8[2]}" class="buttonCss icon-right ion-chevron-right button notCheckClass" ng-bind="s8[1]"></a></td>
+                </tr>
+                <tr>
+                    <td  ng-repeat="s9 in storedim9"><a ng-click="areaDrive(s9)" ng-class="{'button icon-right ion-chevron-right CheckClass':s9[2]}" class="buttonCss icon-right ion-chevron-right button notCheckClass" ng-bind="s9[1]"></a></td>
+                </tr>
+            </table>
+        </div>
+    </ion-content>
+
+</ion-view>

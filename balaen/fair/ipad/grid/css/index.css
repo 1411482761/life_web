@@ -1,0 +1,144 @@
+/*@charset utf-8*/
+/*nav*/
+.nav{
+	border-bottom: 1px solid #ccc;
+    height:42px;
+    position: relative;
+	width:816px;
+	line-height:42px;
+}
+.nav li {
+	background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+    top: 1px;
+	height:40px;
+}
+.nav li.on{
+	border-color: #ccc #ccc rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-width: 1px;
+}
+
+/*ÍÏ×§°´Å¥*/
+.secktions {
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    height: 204px;
+    padding-left: 5px;
+	position:relative;
+	padding-top: 5px;
+	width:810px;
+}
+.secktions  .ss-placeholder-child {background: transparent;}
+.secktions .secktion div, .secktions .clone div{
+	background-image: url("/fair/ipad/grid/images/button1.png");
+	background-size:100% 80%;
+    background-repeat:no-repeat;
+    color: #fff;
+    cursor: pointer;
+    width: 90px;
+	display:inline-block;
+	line-height: 30px;
+	height:35px;
+	text-align:center;
+	position:absolute;
+}
+.secktions .secktion div.ss-placeholder-child , .secktions .clone div.ss-placeholder-child {background: transparent;}
+.container .ss-active-child span,.secktions .ss-active-child span {display: none;}
+/*container*/
+.container{
+	position:relative;
+	border-color: #ccc;
+    border-style: solid;
+    border-width: 0 1px 1px;
+	height: 530px;
+	width:815px;
+}
+
+.container .bm {
+    height: 42px;
+    /*left: 0;
+	position: absolute;
+	 top: 0;*/
+    line-height: 42px;
+    
+    text-align: center;
+   
+	width:200px;
+	margin:0 auto;
+}
+.container .bm input {
+    height: 35px;
+    text-align: center;
+    width: 194px;
+	font-size:16px;
+}
+.container .wd {
+    display: inline-block;
+    position: absolute;
+    text-align: right;
+    top: 42px;
+    width: 100px;
+	height:42px;
+	line-height:42px;
+	left:0px;
+}
+.container .dl{top: 252px;}
+.container .dimension {
+    display: inline-block;
+    left: 100px;
+    position: absolute;
+    top: 42px;
+	width: 714px;
+	height:210px;
+}
+.container .metric{top: 252px;}
+.container .dimension div,.container .metric div{
+	background-image: url("/fair/ipad/grid/images/button4.png");
+	background-size:100% 80%;
+	background-repeat:no-repeat;
+    color: #333;
+    cursor: pointer;
+    height: 35px;
+    width: 88px;
+	display:inline-block;
+	line-height:25px;
+	text-align:center;
+	position:absolute;
+	padding-left:37px;
+}
+.container div.ss-placeholder-child{background:transparent;}
+
+.container .trash{
+	position:absolute;
+	left:3px;
+	bottom:3px;
+	width:50px;
+	height:50px;
+	overflow:hidden;
+	background-image:url("/fair/ipad/grid/images/rubsh.png");
+	background-size:90% 90%;
+    background-repeat:no-repeat;
+}
+.container .trash div{display:none;}
+
+#dimension input,#metric input{height: 30px;width: 85px;text-align:center;font-size:16px}
+
+/*submit*/
+.submit {
+    bottom: 10px;
+    margin-right: 50px;
+    position: absolute;
+    right: 80px;
+}
+.target{
+	top:42px;
+	
+}

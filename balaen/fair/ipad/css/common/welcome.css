@@ -1,0 +1,84 @@
+body{
+font-family: Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;
+}
+ #container{
+ top:0px;
+ left:0;
+ font-size:18px;
+ width:768px;
+ height:800px;
+ background:url("/fair/ipad/images/welcome.png");
+ }
+/*  #container{
+ position : fixed;
+ top:0;
+ left:0;
+ font-size:18px;
+ width:768px;
+ height:1004px;
+ background:url("/fair/ipad/images/welcome.png");
+ } */
+ #manual{
+ display:none;
+ float:right;
+ width:150px;
+ height:40px;
+ color:#ffffff;
+ text-align:center;
+ line-height:40px;
+ margin-top:12px;
+ border-radius: 5px;
+ background: -webkit-linear-gradient(bottom,gray, #cecece);
+ }
+ .context1{
+ height:80px;
+ color:red;
+ }
+ .ctitle{
+ font-weight: bold;
+ }
+.bremark{
+	width: 746px;
+	height: 100%;
+	padding-left: 14px;
+}
+.bremark > div{
+	margin-bottom: 8px;
+	width: 100%;
+	clear: both;
+}
+ .brtable1{
+	margin-left: 90px;
+	border-collapse:collapse;
+	width:600px;
+}
+ .brtable1 tr td{
+ 	border:1px solid #999999;
+ 	text-align: right;
+ }
+.brtable1 tr td.tdtitle{
+	width:50px;
+}
+.brtable1 tr td.tdcontent{
+	min-width:100px !important;
+}
+.bitem div{
+	position: relative;
+	float: left;
+	height: 22px;
+	text-align: left;
+	margin-bottom: 4px;
+}
+.bcol1{
+	width:110px;
+	margin-left: 100px;
+}
+.bcol2{
+	min-width:120px;
+}
+ .bcol4{
+	min-width:100px;
+}
+ .bcol3{
+ 	width:110px;
+ }

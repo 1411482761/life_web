@@ -1,0 +1,17 @@
+.kpi-banner{
+	background-color: #FFFFFF;
+}
+#kpi-filter{
+    -webkit-border-radius: 4px;
+	background-color: #878787;
+	color: #FFFFFF;
+}
+#container{
+	background-color: #FFFFFF;
+}
+#viewtype{
+	background-color: #FFFFFF;
+}
+#viewports{
+	background: url("/fair/ipad/img/02/background1.jpg");
+}

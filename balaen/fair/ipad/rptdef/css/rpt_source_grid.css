@@ -1,0 +1,59 @@
+@charset
+"utf-8"
+{
+}
+#choice_div_main{
+	overflow: visible;	
+}
+
+#choice_div_main>div {
+	clear: both;
+}
+
+#preview_bar {
+	float: right;
+	background-color: #E2E2E2;
+	height: 28px;
+	width: 160px;
+	margin-top: 10px;
+}
+
+#preview_bar>input {
+	width: 30px;
+}
+
+#preview_bar>span {
+	font-size: xx-small;
+	color: #8E9396;
+}
+
+#pattern_choice{
+    height: 80px;
+}
+
+.pattern{
+	float: left;
+	margin: 4px;
+	width: 90px;
+	height:42px;
+	cursor: pointer;
+}
+
+#table{
+	padding: 10px;
+}
+#table > div {
+	float: left;
+	margin:1px;
+}
+
+.th{
+	height: 42px;
+	width: 90px;
+}
+
+.th > div {
+	background-color: #9A9A9A;
+	float: left;
+	margin: 1px;
+}

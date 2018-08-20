@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Web Install</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<link type="text/css" rel="StyleSheet" href="main.css" />
+</head>
+<body>
+<script>
+ var certInstalled=false;
+ function checkAndNext(){
+ 	if(!certInstalled){
+ 		alert("请先点击箭头所指图片安装证书!");
+ 		return;
+ 	}
+ 	window.location.replace('success.html');
+ }
+</script>
+<div class="container">
+	<div class="header"><a href="index.html">自助安装订货会app</a></div>
+	<div class="step">第二步  安装网络证书</div>
+	<div id="pattem3img" onclick="certInstalled=true;window.location.replace('http://www.lifecycle.cn/appstore/config.dinghuohui.mobileconfig')"></div>
+	<div class="preface">点击上述图片，将在ipad上开始安装订货会网络证书。</div>
+	<div class="preface">确保订货会app安装完成再装证书。无关的app将被隐藏，订货会结束，证书自动失效，所有app将重新显示出来。</div>
+	<div class="next" style="float:right;" onclick="javascript:checkAndNext()">下一步</div>
+</div>
+</body>
+</html>

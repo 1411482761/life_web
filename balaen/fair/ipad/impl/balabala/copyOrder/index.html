@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="copyOrder">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Fair">
+    <meta name="author" content="上海贯信信息技术有限公司">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <script src="/fair/ipad/js/jquery.js"></script>
+    <script src="/fair/ipad/impl/js/angular.min.js"></script>
+    <script src="/fair/ipad/impl/skechers/js/angular-cookies.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body ng-controller="MyCtrl">
+    <center>
+
+       <h3>将创建新订单，照搬当前订单和评分内容，请搜索选择新订单对应买手名称</h3>
+        订货会主题：<input type="text" style="width:100px" ng-model="likeFair"/>&nbsp;用户代码：<input type="text" style="width:100px" ng-model="likeCode"/>&nbsp;用户名称：<input type="text" style="width:100px" ng-model="likeBuyer"/>&nbsp;<input type="button" value="搜索" ng-click="searchFilter()" />
+        <br/>
+        <br/>
+        复制<input type="number" ng-model="num">倍订单至买手
+
+        <select  style="width:400px;" ng-model="obj" ng-options="(obj[0] + '(' + obj[5] + ','+ obj[3] + ',' + obj[4]+ ')') for obj in funitData">
+            <option value="">------------------------------------------选择买手----------------------------------------</option>
+        </select>
+
+        <input type="button" value="提交" ng-click="copyBegin(obj[3])" />
+    </center>
+</body>
+</html>

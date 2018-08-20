@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: #EFEFF4;
+}
+#container{
+	width:100%;
+	margin:0 auto;
+	padding-top: 60px;
+}
+
+table{
+	width:100%;
+	font-size: 18px;
+	border:1px solid #c8c7cc;
+	border-collapse:collapse;
+	background: #FFFFFF;
+}
+table tr td{
+	border-bottom: 1px solid #c8c7cc;
+	padding-left: 10px;
+	height:60px;
+	text-align:center;
+	cursor:pointer;
+}
+
+input{
+	width:90%;
+	height:80%;
+	font-size: 18px;
+	border: 0px;
+}

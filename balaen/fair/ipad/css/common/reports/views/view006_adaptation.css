@@ -1,0 +1,213 @@
+#view006-buttons{
+	position: relative;
+	width: 228px;
+	height: 44px;
+}
+#view006-buttons ul{
+	position: relative;
+	margin-left: 12px;
+	top: 8px;
+	height: 32px;
+}
+.view006-button-value{
+	position: absolute;
+	top: 50%;
+	margin-top: -11px;
+	width:74px;
+	height: 22px;
+}
+#view006-filter{
+	display: none;
+	position: absolute;
+	left: 218px;
+	top: 16px;
+	width: 208px;
+	height: 20px;
+}
+#view006-filter span{
+	position: relative;
+	display: inline-block;
+	top: -2px;
+	height: 12px;
+	line-height: 12px;
+}
+#view006-title{
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	width: 224px;
+	height: 22px;
+	z-index: 20;
+	top: 50%;
+	left: 512px;
+	margin-top: -11px;
+	margin-left: -112px;
+}
+.view006-chart-max{
+	top: -32px;
+}
+.view006-chart-select{
+	position: absolute;
+	top: -10px;
+	padding-left: 12px;
+	color: #101010;
+	font-size: 15px;
+}
+#view006-column-select{
+	position: absolute;
+	right: 0px;
+}
+#view006-charts{
+	position: relative;
+	width: 1024px;
+	height: 100%;
+}
+.view006-chart-restore{
+	width: 1024px;
+	height: 392px;
+}
+.view006-chart-fullscreen{
+	width: 1024px;
+	height: 676px;
+}
+.view006-pie-restore{
+	width: 482px;
+	height: 676px;
+}
+.view006-column-restore{
+	width: 542px;
+	height: 676px;
+}
+#view006-pie{
+	position: absolute;
+}
+#view006-pie-button{
+	position: absolute;
+	width: 448px;
+	height: 30px;
+	left: 14px;
+	top: 42px;
+}
+#view006-column{
+	position: absolute;
+	right: 0px;
+}
+#view006-column-button{
+	position: absolute;
+	width: 240px;
+	height: 30px;
+	right: 20px;
+	top: 42px;
+}
+.view006-lump{
+	width: 14px;
+	height: 14px;
+	margin-top: -13px;
+	border-radius: 7px;
+}
+#view006-table-details{
+	display: none;
+	position: relative;
+	width: 1020px;
+	top: 32px;
+	left: 4px;
+	margin-bottom: 6px;
+	height: 244px;
+}
+#view006-table-max{
+	top: -26px;
+}
+#view006-table{
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+}
+#view006-table thead td{
+	text-align: center;
+	font-weight: bold;
+	white-space: nowrap;
+}
+#view006-table tbody td{
+	position: relative;
+	text-align: right;
+}
+#view006-table tbody .sort-desc{
+	text-align: left;
+}
+#view006-fixedheader{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 900;
+	width: 1020px;
+	overflow: hidden;
+}
+.view006-scrollc{
+	position: absolute;
+	z-index: 910;
+	background: transparent;
+}
+#view006-scrollbar-x{
+	left: 2px;
+	bottom: 1px;
+	height: 7px;
+	width: 98%;
+}
+#view006-scrollbar-y{
+	top: 0px;
+	right: 1px;
+	width: 7px;
+	height: 95%;
+}
+.view006-scrollc > div{
+	position: relative;
+	display: none;
+	opacity: 1;
+    border-width: 3px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -webkit-border-image: url("/fair/ipad/img/scrollbar.png") 6 6 6 6;
+}
+#view006-scrollbar-y > div{
+	width: 7px;
+	min-width: 7px;
+}
+#view006-scrollbar-x > div{
+	height: 7px;
+	min-height: 7px;
+}
+#view006-loading{
+	top: 50px;
+	height: 676px;
+}
+#view006-nomatched{
+	top: 90px;
+	height: 636px;
+}
+#view006-banner{
+	position: absolute;
+	top: 0px;
+}
+.view006-button{
+	position: relative;
+	bottom: 3px;
+	width: 74px;
+	height: 100%;
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	margin-right: 24px;
+}
+#view006-container{
+	position: absolute;
+	top: 50px;
+	width: 1024px;
+	height: 676px;
+}
+.view006-max{
+	position: absolute;
+	text-align: center;
+	width: 88px;
+	height: 20px;
+	right: 0px;
+}

@@ -1,0 +1,12 @@
+<ion-view title="mainPage">
+    <ion-content>
+        <div style="float:right"><button class="button button-balanced" ng-click="fixProductCount()">补充装箱</button></div>   <table class="mainTable">
+        <tr class="title">
+            <th>店号</th><th style="width: 68px">店铺级别</th><th>店铺名称</th><th style="width: 68px">订货总数</th><th  style="width: 68px">吊牌总额</th><th style="width: 45px">状态</th><th style="width: 68px">复制订单</th><th style="width: 68px">店铺信息</th>
+        </tr>
+        <tr ng-click="changColor($index);" class="default click_{{$index}}"   ng-repeat="sD in storeDate track by $index">
+            <td ng-repeat="D in sD"  ng-if="$index != 0" ng-bind="D"></td><td ng-click="copyOrder(sD)" class="ion-person-stalker"></td><td ng-click="showStoreInfo(sD)" class="ion-search"></td>
+        </tr>
+    </table>
+    </ion-content>
+</ion-view>

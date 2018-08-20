@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="copyOrder">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Fair">
+    <meta name="author" content="上海贯信信息技术有限公司">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>订单复制</title>
+    <link rel="stylesheet" href="css/index.css" >
+    <script src="js/angular.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body ng-controller="MyCtrl">
+       <h3>将创建新订单，照搬当前订单和评分内容，请搜索选择订货会编号和填写对应买手名称</h3>
+        <div>
+            <span class="w-100">订货会编号:</span>
+            <select  class="w-140" ng-model="faircode" ng-options="obj for obj in funitData">
+                <option value="">--选择订货会编号--</option>
+            </select>
+
+            <span class="w-100 m-l-100 m-r-10">买手名称:</span>
+            <input type="text" ng-model="username" placeholder="">
+            <button ng-click="doCopy()"> 复制</button>
+        </div>
+
+</body>
+</html>

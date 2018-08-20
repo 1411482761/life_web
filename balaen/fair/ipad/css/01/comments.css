@@ -1,0 +1,18 @@
+.banner{
+	background-color: #101010;
+}
+#container{
+	width: 100%;
+	height: 1000px;
+	background-color: #191919;
+}
+#savebutton{
+	background-color: #5E5E5E;
+	-webkit-border-radius: 16px;
+}
+.textarea{
+	background-color: #292929;
+}
+.tagname{
+	background-color: #5E5E5E;
+}

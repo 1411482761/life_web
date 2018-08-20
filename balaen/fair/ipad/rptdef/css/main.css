@@ -1,0 +1,44 @@
+body {
+	font-size:12px;
+}
+#banner {
+	width:600px;
+	height:30px;
+	margin-left:5px;	
+}
+.banner_item {
+	float:left;	
+	cursor: pointer;
+	margin-left:5px;
+	width:200px;
+}
+.max_line_div {
+	float:left;
+	widht:300px;
+}
+.max_line_div_items {
+	float:left;
+}
+.btns {
+	background:url("/nea/core/themes/classic/01/images/button_bg.gif") repeat scroll 0 center transparent;
+	border:1px solid #BFA277;
+	height: 20px;
+	width:40px;
+}
+#rpt_models  {
+	
+    height:510px;
+}
+#real_models {
+	position : relative;
+    background-color: #FFFFFF;
+    border: 1px solid #678FC2;
+    height:460px;
+}
+#real_models_end {
+    background-color: #FFFFFF;
+    border: 1px solid #678FC2;
+    clear: both;
+    margin: 3px 0 0;
+    padding: 3px 0;
+}

@@ -1,0 +1,178 @@
+#kpicard-container{
+ 	overflow: auto;
+	font-size: 20px;
+}
+#kpicard-grade,#kpiscategories,#mykpi{
+	width: 990px;
+	left: 12px;
+}
+#kpicard-container table{
+	position: relative;
+	width: 990px;
+}
+#kpicard-buttons{
+	position: relative;
+	width: 278px;
+	height: 44px;
+	background-color: #101010;
+}
+.kpicard-button{
+	bottom: 3px;
+	width: 74px;
+	height: 32px;
+	display: block;
+	border: 1px solid #5F5F5F;
+	-webkit-border-radius: 18px;
+	background-color: #5e5e5e;
+	text-align: center;
+	font-size: 15px;
+}
+.kpicard-button-value{
+	position: relative;
+	top: 50%;
+	margin-top: -11px;
+	width:74px;
+	height: 22px;
+}
+#kpicard-back{
+	position: absolute;
+	left: 16px;
+}
+#kpicard-grade{
+	position: relative;
+	height: 66px;
+}
+#kpicard-grade div{
+	float: left;
+}
+#kpicard-grade .text{
+	position: relative;
+	height: 28px;
+	top: 50%;
+	margin-top: -14px;
+}
+#kpicard-grade-left{
+	width: 180px;
+}
+#kpicard-grade-right{
+	position: relative;
+	margin-left: 320px;
+	width: 100px;
+}
+#kpicard-grade .grade{
+	line-height: 66px;
+	font-size: 60px;
+	font-weight: bold;
+}
+#rankdesc{
+	clear: both;
+	position: relative;
+	top: 8px;
+	height: 32px;
+	padding-left: 38px;
+}
+#rankdetail{
+	font-weight: bold;
+	font-size: 36px;
+}
+#kpiscategories{
+	position: relative;
+	top: 38px;
+}
+.categoriestable-kpi{
+	width: 328px;
+}
+.lamp-r,.lamp-y,.lamp-g{
+	position: relative;
+	display: inline-block;
+	-webkit-border-radius: 10px;
+	width: 20px;
+	height: 20px;
+	margin-top: 4px;
+	margin-right: 6px;
+}
+.lamp-r{
+	background-color: #F00000;
+}
+.lamp-y{
+	background-color: #FFFF1C;
+}
+.lamp-g{
+	background-color: #0CE036;
+}
+.categoriestable-actualrate{
+	position: relative;
+	float: right;
+}
+#categoriestable-body .categoriestable-weight,#categoriestable-body .categoriestable-scores{
+	text-align: right;
+}
+#categoriestable-subtotal{
+	position: relative;
+	width: 426px;
+	left: 562px;
+	top: 6px;
+}
+#categoriestable-subtotal-left{
+	position: relative;
+	display: inline-block;
+	width: 106px;
+}
+#categoriestable-subtotal-weight{
+	float: right;
+}
+#categoriestable-subtotal-right{
+	position: relative;
+	float: right;
+}
+#mykpi{
+	display: none;
+	position: relative;
+	top: 52px;
+}
+.kpititle{
+	font-weight: bold;
+}
+#kpiname{
+	color: #0070C0;
+}
+#kpidesc{
+	position: relative;
+	top: 24px;
+}
+#kpi{
+	position: relative;
+	top: 44px;
+}
+#kpitable{
+	width: 100%;
+}
+.kpitable-name{
+	width: 240px;
+}
+#kpitable-body .kpitable-order,#kpitable-body .kpitable-rate{
+	text-align: right;
+}
+#kpitable-subtotal{
+	position: relative;
+	float: right;
+	margin-right: 4px;
+	top: 6px;
+	width: 180px;
+}
+#kpitable-rate{
+	position: relative;
+	float: right;
+}
+#kpitable-filter{
+	width: 1px;
+	height: 24px;
+}
+#kpi-loading{
+	top: 50px;
+	height: 676px;
+}
+#kpi-nomatched{
+	top: 90px;
+	height: 636px;
+}

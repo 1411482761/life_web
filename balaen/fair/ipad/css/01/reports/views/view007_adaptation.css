@@ -1,0 +1,18 @@
+#view007-banner{
+	background: #000000;
+}
+#view007-homepage{
+	background-image: url("/fair/ipad/images/homepage.png");
+	background-size: 50px,30px;
+}
+#view007-refresh{
+	background-image: url("/fair/ipad/images/refresh.png");
+	background-size: 50px,30px;
+}
+.view007-button,div#view007-synchronize,#view007-tooltip span,div.toolbar{
+	background-color: #ffffff;
+	color: #5F5F5F;
+}
+#view007-container{
+	background: #000000;
+}

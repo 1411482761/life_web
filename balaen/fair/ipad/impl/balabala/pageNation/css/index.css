@@ -1,0 +1,64 @@
+/*复制页面：checkbox上下居中*/
+.checkboxCenter{
+    left: 15px;
+    top: -10px;
+}
+/*复制页面：主表*/
+.mainTableFourth {
+    width: 100%;
+    line-height: 30px;
+    font-family: Microsoft YaHei,verdana,arial,sans-serif;
+    font-size:13px;
+    margin:0 auto;/*table 居中*/
+    border-collapse: separate;/*取消checkbox的边框*/
+}
+/*主页面：表*/
+table.mainTableFourth th {
+    font-family: Microsoft YaHei,verdana,arial,sans-serif;
+    padding: 8px;
+    text-align: left;
+    border-top: 1px;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(242,242,242);
+    vertical-align: middle!important;
+}
+/*主页面：表*/
+table.mainTableFourth td {
+    font-family: Microsoft YaHei,verdana,arial,sans-serif;
+    padding: 8px;
+    text-align: left;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: rgb(242,242,242);
+    vertical-align: middle!important;
+}
+/*主页面*/
+.titleClass{
+    left: 23px!important;
+    margin-right: -45px!important;
+    font-weight:bold!important;
+}
+/*主页面：表头字体及背景颜色*/
+.title{
+    background-color:rgb(242,242,242)!important;
+    font-weight:bold;
+}
+/*主页面：内容padding*/
+.modalContent{
+    padding: 5%;
+}
+.forSearch{
+    width: 100%;
+    text-align: right;
+}
+.forBatch{
+    width: 100%;
+}
+.buttonRight{
+    float: right;
+}
+button, input{
+    font-family: Microsoft YaHei,verdana,arial,sans-serif!important;
+}

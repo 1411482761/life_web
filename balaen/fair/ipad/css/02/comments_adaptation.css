@@ -1,0 +1,18 @@
+#container{
+	width:100%;
+	background: url("/fair/ipad/img/02/background1.jpg");
+	
+}
+#savebutton{
+/* 	background-color: #cecece; */
+	background-image: url("/fair/ipad/images/button.png");
+	background-size: 82px,32px;
+    color: #FFFFFF;
+	-webkit-border-radius: 4px;
+}
+.textarea{
+	background-color: #cecece;
+}
+.words{
+	color: #FFFFFF;
+}

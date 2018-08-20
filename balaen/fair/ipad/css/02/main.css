@@ -1,0 +1,17 @@
+body{
+	color: #444444;
+}
+thead{
+	background-color: #999999;
+	color: #FFFFFF;
+}
+.mainpageajax{
+	background-color: #FFFFFF;
+	background: url("/fair/ipad/img/02/background2.jpg");
+}
+.activedtr{
+	color: #FFFFFF;
+}
+#footer{
+	background-color: #FFFFFF;
+}

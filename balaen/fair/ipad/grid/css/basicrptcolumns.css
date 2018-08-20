@@ -1,0 +1,98 @@
+/*@charset utf-8*/
+body{position:relative;width:960px;margin:0 auto;font-size:12px;}
+#top{
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:16px;
+}
+#middle{
+	position:relative;
+	width:100%;
+	border:1px solid #999;
+	height:550px;
+}
+#columnstree{
+	position:relative;
+	top:0px;
+	width:200px;
+	border-right:1px solid #cecece;
+	height:540px;;
+	overflow: auto;
+}
+#middle .mdiv{
+	position: absolute;
+	top:100px;
+	left:210px;
+}
+div.button{
+	width:134px;
+	text-align: center;
+}
+div.button button {
+    background-image: url("/fair/ipad/grid/images/submit.png");
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    height: 35px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    width: 90px;
+}
+#columns{
+	position: absolute;
+	top:0px;
+	right:0px;
+	width:615px;
+	height:100%;
+	border-left:1px solid #cecece;
+}
+.colslist{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:300px;
+	height:100%;
+	border-right:1px solid #cecece;
+	overflow: auto;
+}
+div#bottom{
+	text-align:center;
+	margin-top:10px;
+	width:100%;
+}
+.colslist span {
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+}
+.colslist span.on {
+    background: #df8193 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.coldetails{
+	position: absolute;
+	top:0px;
+	right:0px;
+	width:300px;
+	height:100%;
+	overflow: auto;
+}
+.coldetails input,.coldetails select{
+	 border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 200px;
+}
+.detailsinfo{
+	height:470px;
+}
+.coldetails .button{
+	width:100%;
+}

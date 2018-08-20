@@ -1,0 +1,383 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	font-size: 10px;
+	font-family: Times, TimesNR, 'New Century Schoolbook', Georgia, 'New York', serif;
+}
+#container{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+#evaluation-desc{
+	position: relative;
+	float: left;
+	width£º110px;
+	font-size: 10px;
+	height: 12px;
+	padding: 2px 5px;
+	text-align: center;
+	line-height: 12px;
+}
+#poll{
+    position: fixed;
+	bottom: 20px;
+	width:70px;
+    height: 25px;
+    left: 10px;
+    z-index: 999;
+    line-height: 60px;
+	text-align: center;
+	font-size: 20px;
+}
+#evaluation-save{
+	position: relative;
+	top: 26px;
+	float: right;
+	width: 55px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+}
+.moduledesc{
+	position: absolute;
+	top: 0px;
+	width£º85px;
+	height: 12px;
+	font-size: 12px;
+	padding: 4px 12px;
+	text-align: center;
+	line-height: 12px;
+}
+.buttons{
+	display: none;
+	position: relative;
+	float: right;
+	width: 70px;
+	font-size: 14px;
+	margin: 0 8px;
+	margin-bottom: 10px;
+}
+.button-desc{
+	text-align: center;
+	font-size: 12px;
+	line-height: 30px;
+}
+.content{
+	position: relative;
+	margin-left: 4px;
+	z-index: 4;
+	font-size: 12px;
+}
+#evaluation{
+	display: none;
+	position: relative;
+	margin-top: 74px;
+	height: 70px;
+}
+#evaluation-main{
+	position: relative;
+	float: right;
+	height: 70px;
+	top: 5px;
+	width: 300px;
+	margin-right: 6px;
+}
+#evaluation-textarea{
+	position: relative;
+	width: 280px;
+	height: 57px;
+	float: left;
+	padding-left: 2px;
+	font-size: 10px;
+}
+#textarea{
+	margin-top: 143px;
+	font-size: 13px;
+	font-family: Ó×Ô²£»
+	min-height: 70px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#news{
+	margin-top: 140px;
+	margin-bottom: 50px;
+}
+#news-val{
+	position: relative;
+	padding-left: 13px;
+	padding-right: 13px;
+	top: 0px;
+}
+#news-desc{
+	margin-top: -50px;
+}
+#abouts{
+	margin-top: 200px;
+	margin-bottom: 80px;
+}
+#abouts-val{
+	position: relative;
+	padding-left: 70px;
+	top: 0px;
+	width: 150px;
+	height: 80px;
+}
+#uname{
+	position: absolute;
+	width: 250px;
+	top: 2px;
+	height: 18px;
+	margin-bottom: 2px;
+}
+#title{
+	position: absolute;
+	width: 250px;
+	top: 27px;
+	height: 18px;
+	margin-bottom: 2px;
+}
+#msg{
+	position: absolute;
+	width: 250px;
+	top: 52px;
+	height: 20px;
+}
+#abouts-desc{
+	margin-top: -50px;
+}
+#textarea .bremark{
+	width: 320px;
+	height: 100%;
+	padding-left: 7px;
+}
+#textarea .bremark > div{
+	margin-bottom: 8px;
+	width: 100%;
+	clear: both;
+}
+#textarea .bremark > div.bitemdoc{
+	position: relative;
+	top: 16px;
+	margin-left: -16px;
+}
+#textarea .bitem div{
+	position: relative;
+	float: left;
+	height: 22px;
+	text-align: left;
+	margin-bottom: 4px;
+	line-height: 16.8px;
+}
+.bcol1{
+	width:2px;
+	margin-left: 55px;
+}
+.bcol2, .bcol3, .bcol4{
+	width:88px;
+}
+.colspan2{
+	width: 130px !important;
+}
+.colspan3{
+	width: 150px !important;
+}
+.colspan4{
+	width: 250px !important;
+}
+#buttons{
+	position: relative;
+	z-index: 999;
+	min-height: 46px;
+	bottom: 10px;
+	right: -5px;
+}
+/* #button-submit{
+	position: absolute;
+	right: 10px;
+} */
+#processing{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -50px;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 30px #06C;
+	background: url("/fair/ipad/img/loading.gif") center no-repeat;
+}
+#processing-desc{
+	position: absolute;
+	width: 74px;
+	height: 22px;
+	left: 50%;
+	top: 50%;
+	margin-left: -37px;
+	margin-top: -11px;
+	text-align: center;
+	background-color: transparent;
+	color: #fff;
+	font-size: 12px;
+}
+#copyorder{
+	display: none;
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	height: 130px;
+}
+#tocopy{
+	position: relative;
+	top: 20px;
+	left: 80px;
+	width: 130px;
+	height: 24px;
+	line-height: 24px;
+}
+#tocopy > span{
+	width: 32px;
+}
+#tocopy select{
+	display: block;
+	position: relative;
+    font-size: 10px;
+    padding-left: 12px;
+    margin: 0px 6px;
+}
+#copy{
+	position: absolute;
+	bottom: 0px;
+	right: 79px;
+	margin-top: auto;
+}
+.brtable{
+	padding: 5px 5px 5px 72px;
+}
+.brtable1{
+	margin-left: 120px;
+	border-collapse:collapse;
+}
+ .brtable1 tr td{
+ 	border:1px solid #999999;
+ 	text-align: right;
+ }
+.brtable1 tr td.tdtitle{
+	width:50px;
+}
+.brtable1 tr td.tdcontent{
+	min-width:100px !important;
+}
+.v{
+    font-size: 10pt;
+    padding: 5px;
+    text-align: right;
+    width: 90px;
+}
+.h{
+    font-size: 10pt;
+    padding: 5px;
+    text-align: left;
+    width: 90px;
+}
+#printerlist{
+	display: none;
+	min-height: 120px;
+	margin-bottom: 50px;
+}
+#printertemplates{
+    display: none;
+    min-height: 70px;
+    margin-bottom: 100px;
+}
+#pin-container{
+    margin-bottom:170px;
+}
+#pin-desc{
+	width: 130px;
+	height: 30px;
+	font-size: 15px;
+	padding-left: 12px;
+}
+#pin{
+	width: 90%;
+	height: 300px;
+	font-size: 10px;
+	padding-left: 12px;
+}
+ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+li{
+	padding: 0px;
+	margin: 0px;
+}
+ul#printers{
+	position: relative;
+	top:20px;
+}
+ul#printers li{
+	float: left;
+	min-width:40px;
+	min-height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	margin-left: 10px;
+	margin-bottom:10px;
+	-webkit-border-radius: 10px;
+	border:1px solid #ffffff;
+}
+ul#printers,ul#templates{
+	position: relative;
+	top:30px;
+}
+ul#printers li,ul#templates li{
+	float: left;
+	min-width:40px;
+	min-height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:15px;
+	margin-left: 10px;
+	-webkit-border-radius: 10px;
+	border:1px solid #ffffff;
+}
+ul#templates span{
+    display:none;
+}
+#textarea-val{
+	height: 260px;
+	position: relative;
+	top: 50px;
+	left: 0px;
+}
+.bitem{
+	height: 28px;
+	top: 30px;
+	position: relative;
+}
+#changepwd{
+	position: absolute;
+	top: 12px;
+	left:240px;
+	width: 70px;
+	height:30px;
+	z-index: 999;
+}
+#getmore{
+	position: relative;
+	float:right;
+	top: -80px;
+	left:-50px;
+	width: 70px;
+	height:30px;
+	z-index: 999;
+}

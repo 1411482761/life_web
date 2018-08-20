@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+#view004{
+	display: none;
+	width: auto;
+	height: auto;
+}
+ul#view004-buttons{
+	position: fixed;
+	top: 0px;
+	left: 20px;
+	z-index: 900;
+	width: 278px;
+	height: 44px;
+	background-color: transparent;
+}
+ul#view004-buttons li{
+	position: relative;
+	float: left;
+	bottom: 3px;
+	top: 5px;
+	margin-right: 12px;
+	width: 74px;
+	height: 32px;
+	line-height: 32px;
+	display: block;
+	border: 1px solid #5F5F5F;
+	-webkit-border-radius: 18px;
+	background-color: #5e5e5e;
+	text-align: center;
+	font-size: 15px;
+	text-align: center;
+}
+#view004-loading{
+	position: fixed;
+	z-index: 800;
+	top: 44px;
+	width: 100%;
+	height: 704px;
+}
+#view004-title {
+    position: fixed;
+    top: 12px;
+    width: 224px;
+    height: 22px;
+    left: 50%;
+    margin-left: -112px;
+    font-size: 14px;
+    z-index: 20;
+    text-align: center;
+}
+#view004-container{
+	position: relative;
+	margin-top: 44px;
+	overflow: scroll;
+	width:99%;
+	height: 680px;
+}
+.view004-content iframe{
+	border: 0px;
+    width: 1024px;
+    height: 696px;
+    overflow: hidden;
+}
+.view004-content table{
+	font-size: 13px;
+	border-width: 0px;
+}
+.view004-fixed{
+	position: fixed;
+	left: 0px;
+	top: 44px;
+}
+#view004-body, #view004-header, #view004-column, #view004-corner{
+	overflow: hidden;
+}
+#banner{
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index: 100;
+	width:100%;
+	height:44px; 
+	background: black;
+}
+.view004-content td { background-color: #101010;color: #ffffff;}
+.view004-content td { border-color:#A6A6A6;position: static;border-width: 0px;}
+.view004-content td.data {border:1px solid #A6A6A6;text-align:right; background-color:#101010; color:#ffffff;}
+.view004-content td.rowheader {border:1px solid #A6A6A6;vertical-align: middle; background-color:#0076A3; color:#ffffff;white-space: nowrap;}
+.view004-content td.field {border:1px solid #A6A6A6;text-align:center; background-color:#0076A3; color:#ffffff;white-space: nowrap;}
+.view004-content td.colheader {border:1px solid #A6A6A6;vertical-align:top;text-align:center; background-color:#0076A3; color:#ffffff;white-space: nowrap;}
+.view004-content td.total {border:1px solid #A6A6A6;text-align:right; background-color:#4E4F4E;font-weight: bold; color:#ffffff;}

@@ -1,0 +1,167 @@
+/*@charset utf-8*/
+body{position:relative;width:960px;margin:0 auto;}
+ul,li{list-style:none;padding:0;margin:0}
+p{margin:0;padding:0px;font-size:12px;}
+div{font-size:12px;}
+div input{vertical-align:-10%;}
+/*container*/
+.left{
+	width:640px;
+	/*height:670px;*/
+	overflow-y:auto;
+	overflow-x:hidden;
+	position:relative;
+	min-height:628px;
+}
+.container{
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 634px;
+}
+.container div{background-image:url("../images/report.png");background-position:0 1px;background-repeat:no-repeat;width:160px;height:210px;position:absolute; cursor: pointer;}
+.container div p{overflow:hidden;text-align:center;background-image:url("../images/input.png");background-size:100% 80%;background-repeat:no-repeat;position:absolute;left:0;width:160px;height:30px;line-height:25px;font-size:12px;}
+.container div p:first-child{bottom:35px;}
+.container div p:last-child{bottom:0px;}
+.container .ss-placeholder-child {background: transparent;}
+/*configurations*/
+.configure {
+    height: auto;
+    left: 646px;
+    position: absolute;
+    top: 0;
+    width: 314px;
+	height:auto;
+	min-height:670px;
+}
+.configure p{width:306px;height:42px;line-height:42px;}
+.configure p:first-child{text-align:center;}
+.configure p.check span:first-child{display: inline-block;}
+.configure p.check input{margin-right: 10px;}
+.configure span.reportname,.configure span.db_name{
+    display: inline-block;
+    float: right;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 214px;
+}
+.configure span.reportname input,.configure span.db_name input{
+	background: none;
+    border: none;
+    margin:0 auto;
+    height: 30px;
+    text-align: center;
+    width: 98%;
+	line-height:30px;
+	}
+.configure p.alert{
+	display:none;
+	color: red;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 90px;
+    width: 215px;
+}
+.configure p.authority{margin-top:42px;}
+.configure p.new{display:none;text-align:right}
+.configure p.new span{cursor:pointer;width:70px;height:30px;line-height:30px;display:inline-block;background-image: url("../images/new.png");background-repeat:no-repeat;margin-top: 6px;padding-right: 10px;}
+.configure textarea {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 5px;
+    text-align: center;
+    width: 300px;
+	font-size:12px;
+}
+.configure div.area,.configure div.funi,.configure div.inp{position:relative;width:90px;height:auto;display:none;float:left;margin-left:5px;margin-right: 10px;min-height:84px;}
+.configure div.inp{min-height:42px;height:42px;margin-top:38px;margin-right:0;}
+.configure div.inp input{width:84px;height:29px;font-size:12px;margin-top:8px;}
+
+.configure div p{width:90px;height:42px;line-height:42px;}
+
+.configure div span {
+   /*  background-image: url("/fair/ipad/grid/images/select.png");
+    display: inline-block;
+    height: 35px;
+    left: 0; */
+    line-height: 35px;
+    /* overflow: hidden;
+    padding-left: 16px;
+	padding-right: 24px;
+    position: relative;
+    top: 0;
+    width: 50px;
+	z-index:0;
+	overflow:hidden;
+	cursor:pointer;
+	text-overflow:ellipsis;
+	margin:4px 0; */
+}
+.configure div ul{z-index:1;margin-top:-5px;display:none;max-height:252px;overflow-y:auto;overflow-x:hidden;border:1px solid #CCC;background-color:#FFF;position:absolute;left:0;}
+.configure div ul li {
+    font-size: 12px;
+    max-height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 88px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	cursor:pointer;
+}
+.configure div ul li.on{background:#CCC;}
+.configure div ul li:hover{background:#CCC;}
+.configure div.submit {
+	position:absolute;
+	width:100%;
+	text-align:left;
+	bottom: 2px;
+	left:10px;
+}
+.configure div.submit button{
+    background-image:url("../images/submit.png");
+	width:90px;
+	height:35px;
+	border:none;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	color: #fff;
+	cursor: pointer;
+}
+.isnew{
+	display:none;
+}
+.filter{
+	margin-top:20px;
+}
+.selected{
+	color:#0081c2;
+}
+p.topbutton{
+    height: 42px;
+    line-height: 42px;
+    text-align: right;
+    width: 634px;
+}
+p.topbutton span{
+	border: medium none;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    text-align:center;
+    margin-top: 4px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    width: 90px;
+}
+span.recreat,span.copyrpt,span.testrpt,span.graphicalrpt,span.basicrpt{
+	background-image: url("../images/submit.png");
+   	
+}

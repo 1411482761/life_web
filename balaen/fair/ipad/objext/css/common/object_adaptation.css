@@ -1,0 +1,22 @@
+body * {
+    font-size: 16px;
+}
+body {
+    font-family: Lucida Grande,Lucida Sans Unicode,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    overflow: auto;
+    padding: 20px;
+    text-align: left;
+}
+#container{
+}
+table{
+	padding-left:25%;
+}
+table #header td{
+	width: 150px;
+}
+table tr{
+	padding-bottom: 10px;
+}

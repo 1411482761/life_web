@@ -1,0 +1,49 @@
+body{
+	color: #ffffff;
+}
+#container{
+	border: 2px solid #999999;
+	background: -webkit-gradient(linear,left top,left bottom,from(#909090), to(#101010));
+}
+#evaluation-desc{
+	-webkit-border-radius: 18px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#707070), to(#161616));
+}
+#evaluation-save{
+	border: 1px solid #5F5F5F;
+	-webkit-border-radius: 8px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#909090), to(#262626));
+}
+#poll{
+	border: 1px solid #5F5F5F;
+	-webkit-border-radius: 18px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#909090), to(#101010));
+}
+.moduledesc{
+	-webkit-border-radius: 18px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#707070), to(#161616));
+}
+.buttons{
+	height: 30px;
+	border: 1px solid #5F5F5F;
+	-webkit-border-radius: 18px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#909090), to(#101010));
+}
+.button-desc{
+	height: 30px;
+	line-height: 30px;
+}
+.printerstyle,.cur{
+	color:#000000;
+	background: -webkit-gradient(linear,left top,left bottom,from(#999999), to(#cecece));
+}
+#getmore{
+	font-size: 12px;
+	text-align:center;
+	line-height:30px;
+	font-size:12px;
+	color:white;
+	font-family: Times,TimesNR,"New Century Schoolbook",Georgia,"New York",serif;
+/* 	background-image: url("/fair/ipad/images/button.png"); */
+	background-size: 70px,30px;
+}

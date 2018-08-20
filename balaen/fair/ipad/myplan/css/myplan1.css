@@ -1,0 +1,124 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+.left-top1{
+    margin: 1px;
+    height: 90px;
+}
+.left-top1 div{
+}
+.left-top1 button{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.alert{
+    font-size: 15px;
+}
+.left-top2{
+    margin-top: -10px;
+}
+.left-top2 dl{
+}
+.left-top2 dl dt{
+    font-size: 30px;
+    height: 55px;
+    text-align:left;
+
+}
+.left-top2 dl dd{
+    font-size: 15px;
+    text-align: center;
+
+}
+.right-top{
+    font-size: 15px;
+}
+.right-top dl dt{
+    height: 100px;
+}
+
+
+.plan-bottom{
+    border-radius: 25px;
+    border: 1px solid #8AC007;
+    height: 100px;
+    margin-bottom:10px;
+
+}
+.plan-bottom table{
+    text-align: center;
+
+}
+.plan-bottom-1{
+    font-size: 25px;
+}
+.plan-bottom-2{
+    font-size: 15px;
+}
+
+.plan-center{
+
+}
+.plan-title{
+    margin-top: -15px;
+    font-size: 13px;
+}
+.plan-title tr th{
+}
+.plan-data{
+    margin-top: -21px;
+    max-height: 350px;
+    overflow: scroll;
+    font-size: 16px;
+}
+.plan-data table tr{
+}
+.plan-data table input{
+    width: 70px;
+}
+.plan-sum{
+    font-size: 16px;
+    color: red;
+}
+.plan-note{
+    border-radius: 25px;
+    border: 1px solid #8AC007;
+    height:360px;
+    margin-bottom:10px;
+
+}
+/*品牌分解后的模块界面*/
+.pm-top{
+    font-size: 15px;
+}
+.pm-goback{
+    margin: 10px;
+}
+.pm-top2{
+	margin-top:30px;
+}
+.pm-note{
+    border-radius: 25px;
+    border: 1px solid #8AC007;
+    height:250px;
+    margin-bottom:10px;
+}
+.pm-sum{
+    font-size: 18px;
+    color: red;
+}
+.pm-data{
+    margin-top: -21px;
+    max-height: 750px;
+    overflow: scroll;
+    font-size: 17px;
+}
+.pm-data table input{
+    width: 80px;
+}

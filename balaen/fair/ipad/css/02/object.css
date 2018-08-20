@@ -1,0 +1,14 @@
+body {
+	background: url("/fair/ipad/img/02/background1.jpg");
+    color: #999999;
+}
+textarea{
+	background: transparent;
+	color: #999999;
+}
+a {
+    color: #999999;
+}
+td.desc {
+    background-color: transparent;
+}

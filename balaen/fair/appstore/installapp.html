@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Web Install</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<link type="text/css" rel="StyleSheet" href="main.css" />
+</head>
+<body>
+<script>
+ var appInstalled=false;
+ function checkAndNext(){
+ 	if(!appInstalled){
+ 		alert("请先点击箭头所指图片安装app!");
+ 		return;
+ 	}
+ 	window.location.replace('success.html');
+ }
+ </script>
+<div class="container">
+	<div class="header"><a href="index.html">自助安装订货会app</a></div>
+	<div class="step">第一步  安装app</div>
+	<div id="pattem2img" onclick="appInstalled=true;window.location.replace('itms-services://?action=download-manifest&url=https://www.lifecycle.cn/fair/appstore/fairapp.plist');"></div>
+	<div class="preface">点击上述图片，将在ipad上开始安装订货会app，确认安装完毕，再回到浏览器执行第二步。</div>
+	<div class="next" style="float:right;" onclick="javascript:checkAndNext()">下一步</div>
+</div>
+<script>
+//window.location="itms-services://?action=download-manifest&amp;url=https://www.lifecycle.cn/appstore/fairapp.plist";
+</script>
+</body>
+</html>

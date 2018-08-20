@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+body {font-family: sans-serif;}
+#title1{
+	margin:20px;
+}
+div{
+	margin-top:10px;
+	margin-left:60px;
+}
+#step2{
+	margin-top:40px;
+	
+}
+#step3{
+	margin-top:40px;
+}
+#step1 input{
+	margin-left:100px;
+}
+#step2 input{
+	margin-left:180px;
+}
+#step3 input{
+	margin-left:100px;
+}
+input{
+	border:2px black solid;
+	width:100px;
+	height:30px;
+	border-radius:4px;
+	background-color:#F5FFFA;
+}
+#result{
+	margin-top:40px;
+	padding:10px;
+	width:800px;
+	height:300px;
+	border:1px gray solid;
+	overflow:auto;
+	display:none;
+}

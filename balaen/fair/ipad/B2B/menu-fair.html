@@ -1,0 +1,38 @@
+<div class="container" ng-controller="MenuFairCtrl" >
+    <div class="row">
+        <ul class="nav nav-pills menu-fair col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+            <!--<li ng-repeat="fair in fairs"><a href="#">{{fair.fairname}}</a></li>-->
+            <li ng-repeat="fair in fairs" ng-if="!fair.hasMul && $index==0 && !fair.isSingle" name="menu_fair" class="custom" ng-click="clickFair($index,fair,fair.type);"><a href="">{{fair.fairname}}</a></li>
+            <li ng-repeat="fair in fairs" ng-if="!fair.hasMul && $index!=0 && !fair.isSingle" name="menu_fair"  ng-click="clickFair($index,fair,fair.type);"><a href="">{{fair.fairname}}</a></li>
+            <li ng-repeat="fair in fairs" ng-if="!fair.hasMul && $index!=0 && fair.isSingle && !isEndUser" name="menu_fair"  ng-click="clickFair($index,fair,fair.type);"><a href="">{{fair.fairname}}</a></li>
+            
+              <!--   <div ng-if="fair.type == 'singleMonth'" ng-show='isClickSingleMonth' class="row">
+                <section ng-controller="dateDemo" class="col-md-12 col-sm-6" >
+					
+				        <div class="row">
+				            <div class="col-md-12 col-sm-6">   <span style="float: left">璇烽�夋嫨鏃堕棿锛�</span>
+				                <p class="input-group">
+				             
+				                    <input type="text" class="form-control" readonly datepicker-popup="{{format}}" ng-model="dt" is-open="opened" min-date="minDate"  datepicker-options="dateOptions"  ng-required="true" close-text="Close">
+				                    <span class="input-group-btn">
+				                        <button type="button" class="btn btn-default" ng-click="open($event)" >
+				                            <i class="glyphicon glyphicon-calendar"></i>
+				                        </button>
+				                    </span>
+				                </p>
+				            </div>
+				        </div>
+				</section>
+				</div> -->
+            
+          
+            <li  dropdown ng-repeat="fair in fairs" ng-if="fair.hasMul" class="dropdown">
+                <a class="dropdown-toggle" dropdown-toggle ng-disabled="disabled" href="">{{fair.fairname}}<span class="caret"></span> </a>
+                <ul class="dropdown-menu">
+                    <li ng-repeat="f in fair.mulfair " ng-click="clickFair(f,fair.type);"><a href="">{{f.fairname}}</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,76 @@
+<ion-content class="package" style="background-color: rgb(240,239,245);font-size: 16px" >
+    <div class="col bottonc" style="text-align: right;padding-right: 30px;padding-top: 10px">
+        <button class="button button-outline bottonc" ng-click="doPackage()">确认下量</button>
+    </div>
+
+    <div class="row p0">
+        <div class="col col-33 pl0">
+            <div class="row bc" >
+                <div class="col col-33 col-center">
+                    店铺等级
+                </div>
+                <div class="col col-33 col-center">
+                    选中店铺数
+                </div>
+                <div class="col col-33 col-center">
+                    金额
+                </div>
+            </div>
+            <div class="row item"   ng-repeat="show in shows">
+                <div class="col col-33 col-center">
+                    <span ng-bind="show.level"></span>
+                </div>
+                <div class="col col-33 col-center">
+                    <span ng-bind="show.choose"></span>
+                </div>
+                <div class="col col-33 col-center">
+                    <span ng-bind="show.amt"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col col-66 pr0 pb0" >
+            <div class="row bc" style="">
+                <div class="col col-20 col-center">
+                    店铺等级
+                </div>
+                <div class="col col-20 col-center">
+                    店铺名称
+                </div>
+                <div class="col col-20 col-center">
+                    OTB
+                </div>
+                <div class="col col-20 col-center">
+                    实际金额
+                </div>
+                <div class="col col-20 col-center" style="color:rgb(20,139,153)">
+
+                </div>
+            </div>
+
+           <!-- <div  style="position: absolute">-->
+                <div class="row item " style="padding-top: 0px;padding-bottom: 0px" ng-repeat="st in sts" style="" ng-click="doChoose(st)" ng-if="!showWarning">
+                    <div class="col col-20 col-center">
+                        <span ng-bind="st.level"></span>
+                    </div>
+                    <div class="col col-20 col-center">
+                        <span ng-bind="st.name"></span>
+                    </div>
+                    <div class="col col-20 col-center">
+                        <span ng-bind="st.otb"></span>
+                    </div>
+                    <div class="col col-20 col-center">
+                        <span ng-bind="st.amt"></span>
+                    </div>
+                    <div class="col col-20 col-center bottonc" style="font-size: 18px;" ng-show="st.checked">
+                        <i class="radio-icon disable-pointer-events icon ion-checkmark"></i>
+                    </div>
+
+                </div>
+
+                <div class="item" style="border-left:0px;border-right: 0px"  ng-if="showWarning">
+                    <div>没有适合此套餐的商家..</div>
+                </div>
+            <!--</div>-->
+        </div>
+    </div>
+</ion-content>

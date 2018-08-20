@@ -1,0 +1,14 @@
+<div class="header-right" style="width: 100%;">
+    <form class="form-inline ">
+        <div class="form-group">
+            <div class="input-group" >
+                <input type="text" class="form-control" id="search" placeholder="搜索" value='{{searchVal}}' ng-keypress="enter($event);">
+                <div class="input-group-addon"><img src="images/s_button.png" ng-click="search()" ></div>
+            </div>
+        </div>
+    </form>
+    <div class="search_list">
+        <!-- <span ng-repeat="se in popular_search"><a href="{{se.url}}">{{se.name}}</a> &nbsp;&nbsp;</span>  -->
+        <span ng-repeat="se in popular_search track by $index"><a href="" ng-click="search(se)">{{se}}</a> &nbsp;&nbsp;</span>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+#view003-banner{
+	background: #101010;
+	background-color: black;
+}
+.view003-button{
+	border: 1px solid #5F5F5F;
+	-webkit-border-radius: 18px;
+	background-color: #5e5e5e;
+}
+#view003-title{
+	background-color: black;
+}
+#view003-table-details{
+	background-color: black;
+}
+#view003-container{
+	background: -webkit-gradient(linear,left top,left bottom,from(#606060), to(#101010));
+}
+.view003-max{
+	background-color: #f49d56;
+	-webkit-border-radius: 10px;
+}
+#view003-scrollbar-x > div{
+	min-height: 7px;
+}
+.view003-table-footer{
+	background-color: #4e4f4e;
+}

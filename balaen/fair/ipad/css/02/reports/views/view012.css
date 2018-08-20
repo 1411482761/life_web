@@ -1,0 +1,24 @@
+.view012-button{
+	-webkit-border-radius: 4px;
+	background-color: #878787;
+	color: #FFFFFF;
+}
+#view012-container{
+	background-color: #FFFFFF;
+	background: url("/fair/ipad/img/02/background2.jpg");
+}
+.view012-max{
+	-webkit-border-radius: 4px;
+	background-color: #878787;
+	color: #FFFFFF;
+}
+#view012-table-max{
+	 right: 20px;
+}
+#view012-scrollbar-x > div{
+	width: 46%;
+}
+.view012-table-footer{
+	background-color: #999999;
+	color: #FFFFFF;
+}

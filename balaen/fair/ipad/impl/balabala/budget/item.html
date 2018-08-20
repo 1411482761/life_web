@@ -1,0 +1,52 @@
+
+<div class="container">
+    <div class="row">
+        <button ng-click="backSave()" class="btn btn-lg btn-primary" style="margin-left:17px;">保存并返回</button>
+    </div>
+    <div class="row" style="    margin-top: 20px;margin-bottom: 20px;font-size: 17px;">
+        <div class="col-md-6">经销商:
+        <span ng-bind="fname"></span>
+        </div>
+    </div>
+    <div class="data-top">
+        <table class="table table-hover table-bordered">
+            <thead>
+            <tr class="success">
+                <td class="col-md-2 txc">季节</td>
+                <td class="col-md-2 txc">品季</td>
+                <td class="col-md-2 txc">产品线</td>
+                <td class="col-md-3 txc">提报金额</td>
+                <td class="col-md-3 txc">修改后提报金额</td>
+            </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="plan-data">
+        <table class="table table-hover table-striped">
+            <tbody>
+            <tr ng-repeat="item in items">
+                <td class="col-md-2 txc" ng-bind="item.season"></td>
+                <td class="col-md-2 txc" ng-bind="item.pdt_season"></td>
+                <td class="col-md-2 txc" ng-bind="item.name"></td>
+                <td class="col-md-3 txc" ng-bind="item.amt"></td>
+                <td ng-if="isedit" class="col-md-3 txc" >
+                	<input type="number" ng-model="item.xamt" ng-change="checkAmt(item)" />
+                </td>
+                <td ng-if="!isedit" class="col-md-3 txc" ng-bind="item.xamt"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="data-top">
+        <table class="table table-hover table-bordered">
+            <tr class="success">
+                <td class="col-md-2 txc">合计</td>
+                <td class="col-md-2 txc"></td>
+                <td class="col-md-2 txc"></td>
+                <td class="col-md-3 txc"><span style="color:red;" ng-bind="sumAmt=getSum()"></span></td>
+                <td class="col-md-3 txc"><span style="color:red;" ng-bind="sumxAmt"></span></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

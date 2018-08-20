@@ -1,0 +1,38 @@
+html {overflow:-moz-scrollbars-vertical;}
+.head{
+   color: rgb(153,153,153);
+}
+.body{
+    margin-left: 50px;
+}
+.body_tip{
+   margin-left: 20px;
+   color: rgb(153,153,153);
+}
+.body_tip_fair{
+    margin-left: 34px;
+}
+.body_tip_aliasimp,.body_tip_buyweight{
+   margin-left: 26px;
+}
+.need_red{
+    color: red;
+}
+button{
+    font-size: 14px;
+    width: 100px;
+    line-height: 18px;
+   
+}
+button.execute{
+    margin-left: 35px;
+}
+.button{
+    font-size: 14px;
+    width: 100px;
+    line-height: 18px;
+}
+.filename{
+    margin-left: 10px;
+    color: rgb(153,153,153);
+}

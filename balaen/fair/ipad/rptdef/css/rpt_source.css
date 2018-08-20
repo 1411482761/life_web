@@ -1,0 +1,160 @@
+@charset
+"utf-8"
+{
+}
+body {
+	background-color: #EEF3FA;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#main {
+	width: 960px;
+	height: 100%;
+	margin: 0px auto;
+	font-family: 微软雅黑;
+}
+
+#main>div {
+	float: left;
+	width: 960px;
+}
+
+#top_bar {
+	height: 40px;
+	background-image: url("image/title.png");
+	color: white;
+	line-height: 1.5em;
+	font-family: 微软雅黑;
+	font-size: x-large;
+	text-indent: 1em;
+}
+
+#choice_div {
+	background: white;
+}
+
+#choice_div_left {
+	width: 350px;
+	padding-left: 30px;
+	font-size: small;
+	float: left;
+}
+
+#choice_div_left_head {
+	height: 50px;
+	margin-top: 10px;
+}
+
+#choice_div_columns {
+	overflow-y: auto;
+}
+
+#choice_div_main {
+	float: left;
+	width: 540px;
+	padding: 0px 20px;
+	overflow: auto;
+}
+
+#choice_div_main>div.border {
+	border: 1px #B8B8B8 solid;
+	border-radius: 8px;
+	width: 500px;
+	margin: 10px 0px;
+}
+
+#preview {
+	margin-top: 10px;
+	float: right;
+	background: url("image/preview.png");
+	width: 95px;
+	height: 28px;
+	line-height: 1.5em;
+	text-indent: 50px;
+	cursor: pointer;
+}
+
+#grid_div {
+	height: 220px;
+	background: #DADADA;
+	overflow: auto;
+}
+
+table {
+	padding: 0;
+	border: 0;
+}
+
+.column_element>table {
+	margin: 0 auto;
+}
+
+table th,table td {
+	width: 80px;
+	margin: 0;
+}
+
+table th {
+	background-color: #999999;
+	text-align: center;
+}
+
+.input_field {
+	height: 24px;
+	width: 120px;
+	border: 1px #B8B8B8 solid;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.label {
+	display: inline-block;
+}
+
+button {
+	padding: 4px;
+	border: #D6D6D6 1px solid;
+	border-radius: 4px;
+	background: -moz-linear-gradient(top, #FFFFFF, #ECECEC);
+	cursor: pointer;
+	max-width: 140px;
+	min-width: 95px;
+	height: 35px;
+	font-family: 微软雅黑;
+	font-size: 16px;
+}
+
+button:active {
+	background: #ECECEC;
+}
+
+#save_btn {
+	float: right;
+	margin-right: 20px;
+	margin-top: 5px;
+	height: 33px;
+	width: 95px;
+	background: url("image/save_btn.png");
+	background-size: cover;
+	border: 0;
+	font-size: medium;
+	color: white;
+}
+
+#save_btn:ACTIVE {
+	background: #1973A7;
+}
+
+.column_element {
+	background: #ECECEC;
+	border: 1px #D6D6D6 solid;
+	border-radius: 4px;
+	width: 500px;
+	margin: 10px 0px;
+}
+
+.droppable_field {
+	background: #DADADA;
+}

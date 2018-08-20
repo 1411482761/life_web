@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+ul#view004-buttons li{
+	background-color: #878787;
+	color: #FFFFFF;
+}
+.view004-content td.data,.view004-content td {
+	background: #fff;
+	color: #8e8e8e;
+}
+
+.view004-content td.colheader,
+.view004-content td.rowheader,
+.view004-content td.field{
+	background-color: #999999;
+    color: #ffffff;
+}
+.view004-content td.total{
+	background-color: #cecece;
+    color: #ffffff;
+}
+#banner{
+	background: #fff;
+}

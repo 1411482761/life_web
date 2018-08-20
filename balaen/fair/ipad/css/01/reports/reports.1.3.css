@@ -1,0 +1,26 @@
+.kpi-banner{
+	background-color: #101010;
+}
+ul#kpi-filter li{
+    -webkit-border-radius: 18px;
+	background-color: #5E5E5E;
+}
+#container{
+	background-color: #101010;
+}
+#viewtype{
+	background-color: #252525;
+}
+ul#viewslist{
+	background-color: #252525;
+}
+ul#viewslist li{
+	box-shadow: 0px 0px 10px #ced392;
+}
+ul#viewslist li .bgcolor{
+	border-radius: 5px;
+	background: -webkit-linear-gradient(bottom,gray, #fff);
+}
+.viewport{
+	background-color: #101010;
+}

@@ -1,0 +1,25 @@
+<!-- <div ng-controller="MonthMenuOrderCenterCtrl"> -->
+<div>
+	<div class="container-fluid" >
+	    <div class="row">
+	        <ul class="nav nav-pills month-menu-order text-left" id="month-menu-order"  style="float: left;">
+	       		<!-- <li class="cur" ng-click="clickMonthMenu(0,all);"><a href="">全部</a></li>
+	            <li class="" ng-click="clickMonthMenu(1,'single_month');"><a href="">月单</a></li>
+	            <li class="" ng-click="clickMonthMenu(2,'single_supplement');"><a href="">补单</a></li> -->
+	             <li ng-repeat="month in monthMenus" ng-if="$index==0" class="cur" ng-click="clickMonthMenu($index,month);"><a href="">{{month.name}}</a></li>
+	            <li ng-repeat="month in monthMenus" ng-if="$index!=0" ng-click="clickMonthMenu($index,month);"><a href="">{{month.name}}</a></li>
+	        </ul>
+	        <div style="float: right;"><label for="chkAll" style="float: left;line-height: 44px;"><input id="chkAll" type="checkbox" ng-model="chkall"  ng-click="chkAll(chkall)"/>全选</label>&nbsp;<button type="button" class="btn btn-mg btn-lg {{isRem}}" ng-click="exportOrder();">导出</button> <!-- <button type="button" class="btn btn-mg btn-lg {{isImport}}" ng-click="importOrder();">导入订单</button> --></div>
+	        <div ng-if="isShowOptions"> 
+		        <div class="mask opacity"></div> 
+		         <div class="options content" >
+		         	<h4  style="text-aligen:left;float:left">请选择订货会:</h4>
+		       		<table class="table table-hover options_tab">
+		       			<tr ng-repeat="option in importOptions track by $index"><td ng-click="optionChange(option.fairid)" >{{option.description}}</td></tr>
+		       		</table>
+		         </div>
+	         </div>
+	    </div>
+	</div>
+	<hr style="border:3px rgb(201,25,36) solid;margin-bottom: 6px;margin-top: -3px;width: 20%;margin-left: 0px;">
+</div>

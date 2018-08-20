@@ -1,0 +1,86 @@
+@CHARSET "UTF-8";
+h1 {
+	height: 48px;
+	color:	#336699;
+	font-size:	24px;
+	padding: 10px 0 0 60px;
+	background-image: url(../images/48x48/info.png);
+	background-repeat: no-repeat;
+}
+h1.prepare {
+	color:	#336699;
+	background-image: url(../images/48x48/info.png);
+}
+h1.uploading {
+	color: #ff9900;
+	background-image: url(../images/48x48/add.png);
+}
+h1.processing {
+	color:	#ff9900;
+	background-image: url(../images/48x48/process.png);
+}
+h1.complete {
+	color:	#00cc00;
+	background-image: url(../images/48x48/accept.png);
+}
+h1.failed {
+	color:	#cc0000;
+	background-image: url(../images/48x48/delete.png);
+}
+
+#desc li {
+	list-style-position: inside;
+	list-style-type: disc;
+	text-indent: 10px;
+	color: #666666;
+}
+
+#added {color: #00cc00;}
+#updated {color: #00cc00;}
+#notMatch {color: #cc0000;}
+#nonImage {color: #cc0000;}
+#notFound {color: #cc0000;}
+#failed {color: #cc0000;}
+#failedUpload {color: #cc0000;}
+#other {color: #cc0000;}
+
+#results {display:none;}
+#showDetails {color: #6666cc; display:none;}
+#details {display:none;}
+
+.red {color: #cc0000;}
+.green {color: #00cc00;}
+.blue {color: #336699;}
+.gray {color: #666666;}
+
+.uploadify-button {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	position:relative;
+}
+#some_file_queue{
+	display:none;
+}
+#divProgressbar{
+	width:380px;
+	height:5px;
+}
+#total{
+	position:absolute;
+	left:400px;
+	top:280px;
+}
+.reset{
+	display:none;
+	border:2px solid #808080;
+	width:105px;
+	height:25px;
+	background:#505050;
+	color:#FFF;
+	font: bold 12px Arial,Helvetica,sans-serif;
+}
+.num{
+	display:none;
+}
+

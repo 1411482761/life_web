@@ -1,0 +1,28 @@
+#table_head {
+	height:253px;
+	postion:absolute;
+	left:8px;
+	border:1px solid #678FC2;
+	margin-top:-1px;
+	margin-left: -1px;
+	top:50px;
+	width:936px;
+}
+#histogram {
+	height:206px;
+	width:465px;
+	float:left;
+	left:-1px;
+	top:253px;
+	position:absolute;
+	border:1px solid #678FC2;
+}
+#cakegram {
+	height:206px;
+	width:470px;
+	float:left;
+	left:465px;
+	top:253px;
+	position:absolute;
+	border:1px solid #678FC2;
+}

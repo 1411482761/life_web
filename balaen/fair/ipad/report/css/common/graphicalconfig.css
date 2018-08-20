@@ -1,0 +1,30 @@
+
+#metadata {
+    height: 380px;
+	margin-top: 20px;
+	overflow-y: auto;	
+}
+.list1{
+	height: 450px;
+	overflow-y: auto;
+}
+.list div{
+
+	cursor: pointer;
+	position: absolute;
+
+}
+.rowTop {
+	margin-top: 20px;
+}
+.show_dropdown{
+ 	display: inline !important;
+
+ }
+ .selected {
+   background-color: #337ab7;
+ }
+ #params div{
+    margin-top:20px;
+ }
+ 

@@ -1,0 +1,19 @@
+#view006-banner{
+	background: #101010;
+}
+.view006-button{
+	border: 1px solid #5F5F5F;
+	-webkit-border-radius: 18px;
+	background-color: #5e5e5e;
+}
+#view006-container{
+	position: absolute;
+	top: 50px;
+	width: 1024px;
+	height: 676px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#606060), to(#101010));
+}
+.view006-max{
+	background-color: #f49d56;
+	-webkit-border-radius: 10px;
+}

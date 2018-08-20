@@ -1,0 +1,227 @@
+#view003-buttons{
+	position: relative;
+	width: 320px;
+	height: 44px;
+	text-align: center;
+}
+#view003-buttons ul{
+	position: relative;
+	margin-left: 12px;
+	top: 8px;
+	height: 32px;
+}
+.view003-button-value{
+	position: absolute;
+	top: 50%;
+	margin-top: -11px;
+	width:74px;
+	height: 22px;
+}
+#view003-filter{
+	position: absolute;
+	left: 218px;
+	top: 16px;
+	width: 208px;
+	height: 20px;
+}
+#view003-filter span{
+	position: relative;
+	display: inline-block;
+	top: -2px;
+	height: 12px;
+	line-height: 12px;
+}
+#view003-title{
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	width: 224px;
+	height: 22px;
+	z-index: 20;
+	top: 50%;
+	left: 512px;
+	margin-top: -11px;
+	margin-left: -112px;
+}
+.view003-chart-max{
+	top: -32px;
+}
+.view003-chart-select{
+	position: absolute;
+	top: -10px;
+	padding-left: 12px;
+	color: #101010;
+	font-size: 15px;
+}
+#view003-column-select{
+	position: absolute;
+	right: 0px;
+}
+#view003-charts{
+	position: relative;
+	width: 1024px;
+	height: 370px;
+}
+.view003-chart-restore{
+	width: 1024px;
+	height: 370px;
+}
+.view003-chart-fullscreen{
+	width: 1024px;
+	height: 676px;
+}
+.view003-pie-restore{
+	width: 482px;
+	height: 370px;
+}
+.view003-column-restore{
+	width: 542px;
+	height: 370px;
+}
+#view003-pie{
+	position: absolute;
+}
+#view003-pie-button{
+	position: absolute;
+	width: 448px;
+	height: 30px;
+	left: 14px;
+	top: 42px;
+}
+#view003-column{
+	position: absolute;
+	right: 0px;
+}
+#view003-column-button{
+	position: absolute;
+	width: 240px;
+	height: 30px;
+	right: 20px;
+	top: 42px;
+}
+.view003-lump{
+	width: 14px;
+	height: 14px;
+	margin-top: -13px;
+	border-radius: 7px;
+}
+#view003-table-details{
+	position: relative;
+	width: 1020px;
+	top: 32px;
+	left: 4px;
+	margin-bottom: 6px;
+	height: 244px;
+}
+#view003-table{
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+}
+#view003-table thead td{
+	text-align: center;
+	font-weight: bold;
+}
+#view003-table tbody td{
+	position: relative;
+	/* text-align: right; */
+}
+#view003-table tbody .sort-desc{
+	text-align: left;
+}
+#view003-fixedheader{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 900;
+	width: 1020px;
+	overflow: hidden;
+}
+#view003-fixedcolumns{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 890;
+	width: 1020px;
+	overflow: hidden;
+	background: #4c4c4c;
+	max-height:100%;
+}
+#view003-fixedcolumnsheader{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 910;
+	width: 1020px;
+	overflow: hidden;
+}
+.view003-scrollc{
+	position: absolute;
+	z-index: 910;
+	background: transparent;
+}
+#view003-scrollbar-x{
+	left: 2px;
+	bottom: 1px;
+	height: 7px;
+	width: 98%;
+}
+#view003-scrollbar-y{
+	top: 0px;
+	right: 1px;
+	width: 7px;
+	height: 95%;
+}
+.view003-scrollc > div{
+	position: relative;
+	display: none;
+	opacity: 1;
+    border-width: 3px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -webkit-border-image: url("/fair/ipad/img/scrollbar.png") 6 6 6 6;
+}
+#view003-scrollbar-y > div{
+	width: 7px;
+	min-width: 7px;
+}
+#view003-loading{
+	top: 50px;
+	height: 676px;
+}
+#view003-nomatched{
+	top: 90px;
+	height: 636px;
+}
+#view003-banner{
+	position: absolute;
+	top: 0px;
+}
+.view003-button{
+	position: relative;
+	bottom: 3px;
+	width: 74px;
+	height: 100%;
+	display: block;
+	font-size: 15px;
+	margin-right: 24px;
+}
+#view003-container{
+	position: absolute;
+	top: 50px;
+	width: 1024px;
+	height: 654px;
+}
+.view003-max{
+	position: absolute;
+	text-align: center;
+	width: 88px;
+	height: 20px;
+	right: 0px;
+}
+#view003-table-max{
+	top: -26px;
+}
+#view003-scrollbar-x > div{
+	height: 7px;
+}

@@ -1,0 +1,149 @@
+a {
+	text-decoration:none;
+}
+
+.table_head_tag_a {
+	width:270px;
+	float:right;
+}
+
+.table_head_column {
+	float:left;
+	width:713px;
+	cursor:move;
+	margin-top:10px;
+}
+
+.table_head_son_column {
+	float:left;
+	min-width:181px;
+	max-width:690px;
+}
+
+.sum_column {
+	float:left;
+	width:700px;
+}
+
+.colum_add_tag {
+	width:30px;
+	float:left;	
+}
+
+#add_new_column_tag_a {
+	width:700px;
+	float:left;
+}
+
+.rabbis_colloction {
+	width:151px;
+	height:181px;
+	postion:absolute;
+	left:8px;
+	margin-top:30px;
+	margin-left:0px;
+	top:50px;
+	float:left;
+	background-image: url("/fair/ipad/rptdef/images/2.jpg");
+	background-repeat:no-repeat;
+}
+
+#all_colunms {
+	float:left;
+	height:250px;
+	width:785px;
+	border:0px solid #678FC2;
+	overflow-y:auto;
+}
+
+.hover_colloction {
+	background-color:red;
+}
+
+.grams{
+	float:left;
+	height:210px;
+}
+tr,td {
+	width:229px;
+}
+td {
+	border:solid 1px gray;
+	color:white;
+	text-align:center;
+}
+table
+{
+	width:229px;
+}
+
+tr {
+	width:900px;	
+}
+
+.table_head_real{
+	width:734px;
+	overflow:auto;
+	border-collapse:collapse;
+	background-color:#0E99E2;
+}
+
+li {
+	cursor: pointer;
+	height:21px;
+	margin-top:25px;
+	width:305px;
+}
+
+.son_cloumn {
+	width:312px;
+	cursor: pointer;
+}
+
+.morethantwo {
+	margin-left:42px;
+}
+
+.son_cloumn>input,.son_cloumn>select,.son_cloumn>.div_dot {
+	float:left;
+}
+
+#cart {
+	margin-top:0px;
+	overflow:auto;
+	height: 206px;
+}
+
+#cart_cake {
+	margin-top:0px;	
+	height: 20px;
+}
+
+#column_name {
+	width:700px;
+}
+
+ol {
+	margin-top:-13px;
+}
+
+.column_ol_div {
+	overflow:auto;
+	height:186px;
+	margin-top:10px;
+}
+
+
+.checkbox_div  {
+	float:left;
+	width: 95px;
+}
+
+.add_column_chart_div {
+	float:right;
+}
+
+.column_chart_select {
+	float:left;
+	width:289px;
+}

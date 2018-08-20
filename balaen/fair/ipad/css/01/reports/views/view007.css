@@ -1,0 +1,7 @@
+#view007-banner{
+	 background: #101010;
+}
+
+#view007-container{
+	background: -webkit-gradient(linear,left top,left bottom,from(#606060), to(#101010));
+}

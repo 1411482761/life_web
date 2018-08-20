@@ -1,0 +1,1 @@
+{"title":"","cptname":"PieWithJump","cptdesc":"可跳转的饼图","maxWidth":"450","minWidth":"300","datasource":"","config":[{"name":"维度一","namespan":"2","type":"droplist","span":"10","value":"","valuelist":[],"bind":"true","bindColumn":"col"},{"name":"维度二","namespan":"2","type":"droplist","span":"10","value":"","valuelist":[],"bind":"true","bindColumn":"measure"}]}

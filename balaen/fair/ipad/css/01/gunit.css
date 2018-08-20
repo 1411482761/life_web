@@ -1,0 +1,18 @@
+body{
+	color:#ffffff;
+}
+ul#analysis li{
+	-webkit-border-radius: 2px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#8a8a8a), to(#7c7c7c));
+}
+ul#analysis li.selected{
+	background:#845656;
+}
+#refresh{
+    background-color: #5E5E5E;
+    border: 1px solid #5F5F5F;
+    -webkit-border-radius: 18px;
+}
+#loading{
+	background-color: #5E5E5E;
+}

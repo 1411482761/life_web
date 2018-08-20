@@ -1,0 +1,49 @@
+body{
+	color: #8E8E8E;
+}
+#container{
+	width: 100%;
+	background: url("/fair/ipad/img/02/background1.jpg");
+}
+#evaluation-desc{
+	-webkit-border-radius: 4px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#868787), to(#878787));
+	color: #FFFFFF;
+}
+#evaluation-save{
+	-webkit-border-radius: 4px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#868787), to(#878787));
+	color: #FFFFFF;
+}
+.moduledesc{
+	-webkit-border-radius: 4px;
+	color: #FFFFFF;
+	background: -webkit-gradient(linear,left top,left bottom,from(#868787), to(#878787));
+}
+.buttons{
+	height: 40px;
+	-webkit-border-radius: 4px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#868787), to(#878787));
+}
+.button-desc{
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+}
+#getmore{
+	text-align:center;
+	line-height:40px;
+	font-size:16px;
+	color:white;
+	border: 1px solid  #FFFFFF;
+	-webkit-border-radius: 4px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#868787), to(#878787));
+}
+#selectprint{
+	background-color: gray;
+	color:white;
+}
+.printerstyle,.cur{
+	color:#fff;
+	background: -webkit-gradient(linear,left top,left bottom,from(#868787), to(#878787));
+}

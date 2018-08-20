@@ -1,0 +1,133 @@
+#container{
+	width:1005px;
+	height: 730px;
+}
+#img_container{
+	width:1005px;
+	height: 730px;
+}
+
+
+
+#pagebody{
+	width: 905px;
+	height: 560px;
+	position: absolute;
+	left: 70px;
+	top: 135px;
+}
+#show_member{
+	width: 400px;
+	height: 70px;
+	position: absolute;
+	font-size: 75px;
+	line-height: 80px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+#show_infor{
+	width: 400px;
+	height: 250px;
+	position: absolute;
+	top: 110px;
+	text-align: center;
+	font-size: 35px;
+}
+#show_phone{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	left:225px;
+	top: 400px;
+	text-align: center;
+	font-size: 35px;
+	color:green;
+}
+#right_display{
+	width: 435px;
+	height: 470px;
+	position: absolute;
+	top:35px;
+	left: 470px;
+}
+#_0{
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	top: 370px;
+	left: 45px;
+}
+
+#_1{
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	left: 45px;
+	top: 5px;
+}
+#_2{
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	left: 170px;
+	top: 5px;
+}
+#_3{
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	left: 300px;
+	top: 5px;
+}
+#_4{
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	top: 130px;
+	left: 45px;
+	font-size: 55px;
+	line-height: 70px;
+	text-align: center;
+}
+#_5{
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	top: 130px;
+	left: 170px;
+}
+#_6{
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	top: 130px;
+	left: 300px;
+}
+#_7{
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	top: 250px;
+	left: 45px;
+}
+#_8{
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	top: 250px;
+	left: 170px;
+}
+#_9{
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	top: 250px;
+	left: 300px;
+}
+#clear{
+	width: 230px;
+	height: 105px;
+	position: absolute;
+	top: 380px;
+	left: 170px;
+}

@@ -1,0 +1,175 @@
+body{
+	font-size: 18px;
+}
+li{
+	padding-top: 28px;
+}
+#content{
+	position: absolute;
+	top: 78px;
+	left: 20px;
+	width: 92%;
+	height: 572px;
+}
+#infotip{
+	height: 20px;
+}
+#publish{
+	position: relative;
+	left: 20px;
+	width: 91%;
+	height: 190px;
+}
+#yours{
+	position: relative;
+	margin-top: 20px;
+	width: 86%;
+	height:  140px;
+	background-color: white;
+	padding-top: 12px;
+	padding-left: 12px;
+	font-size: 18px;
+	color: #101010;
+}
+#discount{
+	font-size: 13px;
+}
+#discount input{
+	display: inline-block;
+	padding-left: 18px;
+}
+#discussion{
+	position: relative;
+	overflow: auto;
+	width: 92%;
+	height: 360px;
+	left: 20px;
+}
+.user{
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+}
+.me{
+	background: url("/fair/ipad/img/user_me.png") no-repeat;
+}
+.other{
+	background: url("/fair/ipad/img/user_other.png") no-repeat;
+}
+.userinfo{
+	display: inline-block;
+	position: relative;
+	width: 50%;
+	left: -2px;
+}
+.username,.publishtime{
+	padding-left: 12px;
+}
+.publishtime{
+	position: relative;
+	left: 8px;
+	font-size: 14px;
+}
+.comment{
+	position: relative;
+	width: 80%;
+	height: 36px;
+	top: 2px;
+	left: 26px;
+	clear: both;
+}
+.commentpicture{
+	float: left;
+	background: url("/fair/ipad/img/comment.png") no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.filter{
+	position: relative;
+	left: -28px;
+	top: 16px;
+	width: 90%;
+	height: 1px;
+}
+.banner{
+	position: absolute;
+	z-index: 12;
+	top: 280px;
+	width: 100%;
+	/* height: 58px; */
+}
+#container{
+	position: relative;
+	z-index: 1;
+	width: 90%;
+}
+#savebutton{
+    font-size: 16px;
+    height: 32px;
+	line-height: 32px;
+    position: absolute;
+    right: 128px;
+    text-align: center;
+    top: 9px;
+    width: 82px;
+}
+.textarea{
+	display: inline-block;
+	-webkit-border-radius: 12px;
+	position: relative;
+	width: 78%;
+	height: 32px;
+	top: 4px;
+	left: 4px;
+}
+.words{
+	display: inline-block;
+	position: absolute;
+	height: 20px;
+	top: 50%;
+	margin-top: -10px;
+	margin-left: 12px;
+	font-size: 16px;
+}
+#tag-content{
+	width: 90%;
+}
+.tag{
+    margin-left: 20px;
+    position: relative;
+    width: 88%;
+    margin-bottom: 15px;
+}
+.tagcontainer{
+    position: relative;
+	height: 35px;
+    width: 88%;
+}
+.tagname{
+    height: 35px;
+    left: 20px;
+    line-height: 35px;
+    position: relative;
+    text-align: center;
+    width: 24%;
+    -webkit-border-radius: 12px;
+}
+.taglist{
+    position: relative;
+    width: 70%;
+    height:40px;
+    margin-left: 50px;
+}
+.styledesc{
+    float: left;
+    height: 30px;
+    position: relative;
+    margin-top: 10px;
+    margin-left:20px;
+}
+.tagstyle{
+    height: 30px;
+    margin-left: 20px;
+    margin-top: -23px;
+    position: relative;
+}

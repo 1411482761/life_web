@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Web Install</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<link type="text/css" rel="StyleSheet" href="/fair/appstore/main.css" />
+</head>
+<body>
+<script>
+ var appInstalled=false;
+ function checkAndNext(){
+ 	if(!appInstalled){
+ 		alert("请先点击箭头所指图片安装app!");
+ 		return;
+ 	}
+ 	window.location.replace('success.html');
+ }
+ var certInstalled=false;
+ function checkAndNext(){
+ 	if(!certInstalled){
+ 		alert("请先点击箭头所指图片安装证书!");
+ 		return;
+ 	}
+ 	window.location.replace('success.html');
+ }
+ </script>
+<div class="container">
+	<div class="header">自助安装订货会app</div>
+	<div class="step"><span>第一步  安装app</span><span>第二步  安装网络证书</span></div>
+	<div>
+		<div class="install"><img src="/fair/appstore/image/img2.png"  onclick="appInstalled=true;window.location.replace('itms-services://?action=download-manifest&url=https://www.lifecycle.cn/fair/appstore/fairapp.plist');"></div>
+		<div class="install"><img src="/fair/appstore/image/img3.png"  onclick="certInstalled=true;window.location.replace('https://www.lifecycle.cn/fair/appstore/config.dinghuohui.mobileconfig')"></div>
+	</div>
+	
+	<div class="preface">确保订货会app安装完成再装证书。无关的app将被隐藏，订货会结束，证书自动失效，所有app将重新显示出来。</div>
+</div>
+<script>
+//window.location="itms-services://?action=download-manifest&amp;url=https://www.lifecycle.cn/fair/appstore/fairapp.plist";
+</script>
+</body>
+</html>

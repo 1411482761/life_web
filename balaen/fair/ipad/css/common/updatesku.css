@@ -1,0 +1,227 @@
+ body{
+    overflow:auto;
+} 
+.gridStyle {
+	border: 1px solid rgb(212, 212, 212);
+	width: 100%;
+	border-collapse:collapse;
+}
+#loading {
+	width:100px;
+	height:100px;
+	left: 42%;
+	top:300px;
+	background-image: url("/fair/ipad/img/loading.gif");
+	z-index: 200;
+	position: absolute;
+	border-radius: 10px;
+	border-shadow: 0px 0px 30px #06C;
+}
+#loadinglocale{
+	position: absolute;
+	width: 74px;
+	height: 22px;
+	left: 50%;
+	top: 50%;
+	margin-left: -37px;
+	margin-top: -11px;
+	text-align: center;
+	background-color: transparent;
+	color: #fff;
+	font-size: 12px;
+}
+
+ #leftdown{
+	position:absolute;
+	left:300px;
+	top:220px;
+	height:60%;
+	width:70%;
+}
+#left{
+	width:300px;
+}
+#mylist{
+	position:absolute;
+	left:20px;
+	top:20px;
+	width:240px;
+	height:90%;
+}
+#listhead{
+	margin-top:20px;
+	height:70px;
+}
+#pdtinfo{
+    position:relative;
+    top:20px;
+    left:300px;
+	float:left;
+	height:155px;
+	width:700px;
+}
+#vertical{
+    position:relative;
+    top:20px;
+    left:260px;
+	float:left;
+	height:100%;
+	width:10px;
+	background-color: #000;
+     
+}
+#pdtpic{
+	position:absolute;
+	left:20px;
+	width:60px;
+	height:60px;
+}
+#pdt{
+	position:relative;
+	left:60px;
+	float:left;
+}
+
+
+#mygrid tr,#mygrid td{
+	border: 1px solid #A6A6A6;
+	
+}
+
+table.nowap{
+	white-space: nowrap;
+}
+#mygrid input{
+	width:99.9%;
+	height:100%;
+	border:0px; 
+	text-align: center;
+	color:black;
+}
+#mygrid td{
+ 	width:100px;
+	height:30px; 
+	text-align: center;
+}
+.table_head{
+
+	background: #0081c2;
+	color:#ffffff;
+}
+.unedit_cell{
+	background: #c7c7c7;
+	color:#000000;
+}
+.buttons{	
+
+	position: relative;
+	cursor:pointer;
+	float: right;
+	width: 104px;
+	height:30px;
+	font-size: 15px;
+	margin: 0 16px;
+	border-radius: 8px;
+	background-color: #c7c7c7;
+}
+.button-desc{	
+	
+	height:30px;
+	text-align: center;
+	font-size: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:bold;
+    border-radius: 8px;
+	background-color: #c7c7c7;
+}
+.main-button{
+
+    font-size: 16px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 8px;
+    overflow: hidden;
+    text-align: center;
+    width: 98%;
+}
+#buttons{
+	margin-top:10px;
+    position: relative;
+	float: right;
+    top: 10px;
+    right: 20px;
+}
+#sheet{
+	border-color:lightgrey;
+	border-style:solid;
+	border-radius:20px;
+	height:35px;
+	bottom: 20px;
+    z-index: 999;
+}
+#leftdown ul {
+    list-style: outside none none;
+    margin-left: 0;
+    padding: 0;
+    width:500px;
+    height:10px; 
+}
+#leftdown ul li{
+	border-radius:20px;
+
+	cursor: pointer;
+    float: left;
+    height: auto;
+    line-height: 24px;
+    margin-left: 6px;
+    position: relative;
+    top: 2px;
+    width:100px; 
+    text-align:center;
+}
+#left ul{
+	    list-style: outside none none;
+	    height:auto;
+	    padding-left:20px;
+	    margin:0;
+}
+
+.td_style{
+	color:red;
+}
+.td_style1{
+	color:blue;
+}
+#mygrid{
+	border-radius:10px;
+	position:relative;
+	top:50px;
+	width:100%;
+	height:80%;
+	overflow: auto;
+}
+#pdt table tr  td:first-child{
+	font-weight:bold;
+}
+.tdselected{
+	border:1px solid #38bbeb;
+}
+.borderright{
+	border-right:1px solid #38bbeb;
+}
+.borderbottom{
+	border-bottom:1px solid #38bbeb;
+}
+.selected{
+	background-color:grey;
+	color :white;
+}
+.unselected{
+	background-color:#fff;
+	color:#000;
+}
+#listtb td.selected{
+	
+	color:#fff;
+	background-color:#c7c7c7;
+}

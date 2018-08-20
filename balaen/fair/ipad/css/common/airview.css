@@ -1,0 +1,267 @@
+#second-tab tr .second_tab_text {
+	text-align: left;
+}
+#second-tab tr .second_tab_num{
+	text-align: center;
+}
+.first-tab-right a {
+	text-decoration:none;
+	text-align: center;
+	font-size: 16px;
+}
+.first-tab-right a:hover{
+	color:red
+}
+<!--
+html {overflow:-moz-scrollbars-vertical;
+overflow:scroll;
+}
+-->
+.general_select_u{
+	display: none;
+}
+.filter_sel {
+	margin-top:-3px;
+	margin-right:-35px;
+	float:right;
+	position: static;
+}
+#loading {
+	background-image: url("/fair/ipad/img/loading.gif");
+	z-index: 200;
+	display: none;
+	position: absolute;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 30px #06C;
+}
+#loadinglocale{
+	position: absolute;
+	width: 74px;
+	height: 22px;
+	left: 30%;
+	top: 50%;
+	margin-left: -37px;
+	margin-top: -11px;
+	text-align: center;
+	background-color: transparent;
+	color: #fff;
+	font-size: 12px;
+}
+.mm-next {
+	width: 400px;
+	background: red;
+}
+#menu {
+	background: dark;
+}
+.header {
+	background: #E00000;
+}
+.input-group-addon{
+	border:1px solid #E00000;
+	color: red
+}
+.selectpicker_0,.selectpicker_1,.selectpicker_2,.selectpicker_user{
+	border:1px solid #E00000;
+	color: red
+}
+.div-head-single{ 
+	padding:20px;
+	background-color: #E00000;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+.div-data-single{ 
+	border:1px solid red;
+	text-align: center;
+	line-height: 80px;
+}
+.div-head{ 
+	height:42px;
+	background-color: #E00000;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+.div-data{ 
+	border:1px solid red;
+	text-align: center;
+	line-height: 60px;
+}
+.show-grid{
+	margin: 0px;
+}
+#second-tab{
+   border:1px solid red;
+}
+#second-tab a{
+  text-decoration:none;
+}
+#second-tab a:hover{
+	color:red
+}
+#second-tab tr th{
+   text-align: center;
+   border:1px solid pink;
+}
+#second-tab tr td{
+   padding-right:10px;
+   text-align: right;
+   border:1px solid pink;
+}
+.text-left {
+	float:left;
+ 	background:url(/fair/ipad/img/gm-1-inv.png) no-repeat; 
+	padding-left:15px; 
+}
+.btn-group {
+	padding-bottom: 5px;
+}
+.dropdown-menu a{
+	text-decoration: none;
+}
+.pull-right {
+	padding: 0px;
+}
+
+#first-table tr th,#first-table tr td{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400
+}
+/* #first-table tbody tr td:first-child{
+	font-size: 36px;
+} */
+#first-table tbody tr td{
+	font-size: 30px;
+	line-height: 100px;
+	border:1px solid red;
+}
+#first-table thead tr th{
+	padding:5px;
+	background-color: #E00000;
+	border:0px solid red;
+	color: white;
+	line-height: 50px;
+}
+#gm-grid-text {  
+  font-size: 40px;  
+}
+#gm-grid-textO {
+  font-size: 20px;  
+}
+.cus-div-head {
+  height: 42px;
+}
+
+<!--  适配 -->
+/* 大屏幕 */
+@media (min-width: 1200px) {
+     #loading {
+		width:100px;
+		height:100px;
+		left:850px;
+		top:200px;
+	}
+}
+/* 显示器 */
+@media (max-width: 1920px) {
+	#loading {
+		width:100px;
+		height:100px;
+		left:900px;
+		top:300px;
+	}
+}
+/* 笔记本 */
+@media (max-width: 1370px) {
+	 #loading {
+		width:100px;
+		height:100px;
+		left:635px;
+		top:300px;
+	}
+
+}
+/* pad */
+@media (max-width: 1024px) {
+	 #loading {
+		width:100px;
+		height:100px;
+		left:435px;
+		top:300px;
+	}
+	.header,.header a{
+		height: 50px;
+	    line-height: 50px;
+    }
+ 	#gm-grid-text {  
+	  font-size:32px;  
+	}
+
+}
+/* 平板电脑和小屏电脑之间的分辨率
+@media (min-width: 768px) {  */
+@media (max-width: 768px) {
+    #loading {
+		width:100px;
+		height:100px;
+		left:335px;
+		top:300px;
+	}
+}
+
+/* 横向放置的手机和竖向放置的平板之间的分辨率 */
+@media (max-width:  767px) {
+	.div-head{ 
+		line-height: 42px;
+	}
+	#gm-grid-text {  
+	  font-size:30px;  
+	}
+	#gm-grid-textO {
+	  font-size: 20px;  
+	}
+	#loading {
+		width:100px;
+		height:100px;
+		left:250px;
+		top:200px;
+	}
+	.header,.header a{
+		height: 40px;
+	    line-height: 40px;
+    }
+}
+ 
+/* 横向放置的手机及分辨率更小的设备  */
+@media (max-width: 480px) {
+	.div-head{ 
+		padding:5px;
+		line-height: 28px;
+		background-color: #e00000;
+	}
+	.div-head-single{ 
+		padding:14px;
+		background-color: #E00000;
+		color: white;
+		font-weight: bold;
+		text-align: center;
+	}
+	#loading {
+		width:100px;
+		height:100px;
+		left:120px;
+		top:200px;
+	}
+	#gm-grid-text {  
+     font-size: 25px;  
+    }
+    #gm-grid-textO {
+     font-size: 13px;  
+    }
+    #gm-grid-text1 {
+     font-size: 13px;  
+    }
+}

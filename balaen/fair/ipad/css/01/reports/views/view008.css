@@ -1,0 +1,56 @@
+.view008-button{
+	bottom: 3px;
+	width: 74px;
+	height: 32px;
+	display: block;
+	border: 1px solid #5F5F5F;
+	-webkit-border-radius: 18px;
+	background-color: #5e5e5e;
+	text-align: center;
+	font-size: 15px;
+}
+#view008-dimensions ul li .dimensionname{
+	position: absolute;
+	z-index: 8;
+	width: 90px;
+	height: 18px;
+	top: 50%;
+	left: 50%;
+	margin-left: -45px;
+	margin-top: -9px;
+	text-align: center;
+}
+.view008-max{
+	position: absolute;
+	background-color: #f49d56;
+	text-align: center;
+	width: 88px;
+	height: 20px;
+	-webkit-border-radius: 10px;
+	right: 0px;
+	top: -32px;
+}
+#view008-details{
+	position: relative;
+	top: 6px;
+	width: 1024px;
+	height: 612px;
+	background-color: #111111;
+}
+#view008-table-max{
+	position: relative;
+	background-color: #f49d56;
+	font-size: 14px;
+	width: 88px;
+	height: 20px;
+	left: 916px;
+	text-align: center;
+	font-size: 12px;
+	-webkit-border-radius: 10px;
+}
+.active{
+	background: url('/fair/ipad/img/01/active.png') repeat-x;
+}
+.view008-table-footer{
+	background-color: #4e4f4e;
+}

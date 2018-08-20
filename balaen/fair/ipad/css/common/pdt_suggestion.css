@@ -1,0 +1,157 @@
+body{
+	font-size: 18px;
+}
+.filter-div{
+	clear: both;
+	display: block;
+	width: 1px;
+	height: 12px;
+}
+#group-title{
+	left: 22px;
+}
+#reference-title{
+	left: 160px;
+}
+#container > div{
+	position: relative;
+}
+#filter-top{
+	width: 1px;
+	height: 70px;
+}
+#unscore{
+	width: 700px;
+	left: 50%;
+	margin-left: -350px;
+	word-break: break-all;
+	font-size: 14px;
+	text-align: justify;
+	text-justify:distribute-all-lines;
+}
+#group{
+	display: inline-block;
+	width: 700px;
+	left: 50%;
+	margin-left: -350px;
+}
+.group-item{
+	position: relative;
+	margin: 14px 24px;
+	width: 300px;
+	height: 100px;
+	float: left;
+}
+.user{
+	float: left;
+	width: 48px;
+	height: 48px;
+}
+.me{
+	background: url("/fair/ipad/img/user_me.png") no-repeat;
+}
+.other{
+	background: url("/fair/ipad/img/user_other.png") no-repeat;
+}
+.group-item .name{
+	position: relative;
+	left: 12px;
+	top: 6px;
+}
+.group-item .score{
+	position: relative;
+	display: inline-block;
+	left: 22px;
+	top: 14px;
+	width: 60px;
+	height: 22px;
+}
+.bar{
+	position: relative;
+	display: inline-block;
+	left: 22px;
+	top: 16px;
+	height: 14px;
+	background-color: #28ff28;
+	-webkit-box-shadow: 0px 0px 8px #ced392;
+}
+.filter{
+	position: relative;
+	top: 26px;
+	height: 1px;
+}
+#reference{
+	display: inline-block;
+	width: 700px;
+	left: 50%;
+	margin-left: -350px;
+}
+.reference-item{
+	position: relative;
+	margin: 14px 26px;
+	width: 172px;
+	height: 100px;
+	float: left;
+	background-color: #845656;
+	-webkit-border-radius: 10px;
+	border: 4px solid gray;
+}
+.reference-item .name{
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	font-size: 16px;
+	width: 120px;
+	height: 20px;
+	line-height: 20px;
+}
+.reference-item .score{
+	position: absolute;
+	height: 40px;
+	line-height: 40px;
+	right: 18px;
+	bottom: 12px;
+	font-size: 46px;
+}
+.reference-item .text{
+	position: absolute;
+	bottom: 2px;
+	left: 4px;
+	font-size: 12px;
+}
+#nosugg{
+	border: 2px solid #999999;
+	display: none;
+	position: absolute;
+	top: 0px;
+	background-color: #191919;
+	z-index: 2;
+	width: 764px;
+	height: 904px;
+}
+#nosugg-locale{
+	position: absolute;
+	width: 540px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 22px;
+	left: 50%;
+	top: 25%;
+	margin-left: -270px;
+	text-align: center;
+}
+.title{
+	position: fixed !important;
+	top: 40px;
+	z-index: 900;
+	display: inline-block;
+	padding: 2px 12px;
+	text-align: center;
+}
+#container{
+	position: relative;
+	border: 2px solid #999999;
+	z-index: 1;
+	width: 764px;
+	overflow: auto;
+}

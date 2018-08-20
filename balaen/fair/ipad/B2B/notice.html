@@ -1,0 +1,107 @@
+<div class="notice">
+	<span>更多关注分享</span>  <!-- margin-left: 20%; -->
+	<span dropdown class="dropdown">
+		<img class="dropdown-toggle" dropdown-toggle ng-disabled="disabled" src="images/fair.png" style="width: 20%;height:20%;margin-left: 10%;cursor: pointer;">
+	    <div class="dropdown-menu row" style="text-align: center;"><img src="images/fair.png">订货会扫描</div>
+	</span>
+	<span dropdown class="dropdown">
+		<img class="dropdown-toggle" dropdown-toggle ng-disabled="disabled" src="images/fair.png" style="width: 20%;height:20%;cursor: pointer;">
+		<div class="dropdown-menu row" style="text-align: center;"><img src="images/wechat.png">微信扫描</div>
+	</span>
+</div>
+<div class="notice">
+    <span>晨光快报</span> <!-- href="/fair/ipad/about.jsp?from=b2b" ng-if="notices.length>0" -->
+    <a  style="float: right;margin-right: 10px;" target="_blank" ng-click='mg(null);'>更多快报</a>
+	<div class="shell">
+	  <!--   <div id="notice-content"> 丢弃
+	      <a ng-repeat="n in notices" style="cursor: pointer;">{{n.title}}</a>
+	    </div> -->
+	    
+	   <!--  <div class="list-group notice-content">
+	    	<a ng-repeat="n in notices" class="list-group-item">{{n.title}}</a>
+	    </div> -->
+	    <div class=" notice-content">
+		  <a href="" class="list-group-item" ng-repeat="news in notices"  ng-if="$index<3" ng-click='mg(news.id);'>{{news.subject}}</a>
+	<!-- 	  <a href="" class="list-group-item">魅力晨光 精彩夏季</a>
+		  <a href="" class="list-group-item">一款给你无限创意空间纸带卷</a>
+		  <a href="" class="list-group-item">开启宝宝人生创意盒子(M-BOX)</a>
+		  <a href="" class="list-group-item">下单！送送送精美大礼包</a> -->
+		</div>
+	</div>
+</div>
+<div class="notice">
+<ul class="nav nav-tabs order-status" id="month-menu-order" style="padding-left: 0px;">
+	<li class="active" ng-click="changStatus(0);" name="order-status"><a href="">数量</a></li>
+    <li ng-click="changStatus(1);" name="order-status"><a href="">金额</a></li>
+</ul>
+<span>订单状况:</span>&nbsp;&nbsp; <span style="cursor: pointer;" ng-click="statusWeek();" name="status" class="cur">本周</span> &nbsp; | &nbsp; <span style="cursor: pointer;" ng-click="statusMonth();" name="status">本月</span> | 
+
+<span dropdown class="dropdown" style="cursor: pointer;float: right;margin-right: 4%;" ng-click="showTime();" name="status">  更多...</span>
+<!--  <div ng-show="isShowTimeFilter" class="content"> 
+                           起始
+      	 <p class="input-group" ng-controller="dateDemo" style="margin: 2px 6px;">
+             <input type="text" class="form-control" size="28" readonly datepicker-popup="{{format}}" ng-model="dt1" is-open="opened" min-date="minDate"  datepicker-options="dateOptions"  ng-required="true"  current-text="今天" clear-text="清除" close-text="关闭" >
+             <span class="input-group-btn">
+                 <button type="button" class="btn btn-default" ng-click="open($event)" >
+                     <i class="glyphicon glyphicon-calendar"></i>
+                 </button>
+             </span>
+         </p>
+                      到期
+        <p class="input-group" ng-controller="dateDemo" style="margin: 2px  6px;">
+            <input type="text" class="form-control" size="28" readonly datepicker-popup="{{format}}" ng-model="dt2" is-open="opened" min-date="minDate"  datepicker-options="dateOptions"  ng-required="true" current-text="今天" clear-text="清除" close-text="关闭">
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="open($event)" >
+                    <i class="glyphicon glyphicon-calendar"></i>
+                </button>
+            </span>
+		</p>
+		<div style="float:right;margin-right: 10px;margin-top: 20px;">
+		<button type="button" class="btn btn-primary" style="padding: 6px 20px;" ng-click="submitTime();">确定</button>
+		</div>
+		
+</div> -->
+<div ng-show="isShowTimeFilter" class="content" ng-controller="dateDemo"> 
+
+	 <p style="margin: 2px 6px;">
+		 起始	<input type="text" class="form-control" id="datepicker" ng-model="dt1"/> 
+	 </p>
+	
+    <p style="margin: 2px  6px;">
+     	 到期	<input type="text" class="form-control" id="datepicker2" ng-model="dt2"/>
+    </p>
+	 <div style="float:right;margin-right: 10px;margin-top: 20px;">
+		<button type="button" class="btn btn-primary" style="padding: 6px 20px;" ng-click="submitTime();">确定</button>
+		</div>
+</div>
+
+<div class="shell" style="line-height: 30px;">
+	<div style="height: 30px;line-height: 22px;">
+		<div style="float: left;">已下单:&nbsp;</div>
+		<div class="progress"> 
+			  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+			    	<span ng-bind='orderStatus.qty' ng-show='isShowQty'></span>
+			    	<span  ng-show='!isShowQty' ng-bind='orderStatus.amt'></span>
+			  </div>
+		</div>
+	</div>
+	<div style="height: 30px;line-height: 22px;">
+		<div style="float: left;">已确认:&nbsp;</div>
+		<div class="progress"> 
+			  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="{{orderStatus.cfm_pct}}" aria-valuemin="0" aria-valuemax="100" style="width: {{orderStatus.cfm_pct}};">
+			    	<span ng-bind='orderStatus.cfm_qty' ng-show='isShowQty'></span>
+			    	<span ng-show='!isShowQty' ng-bind='orderStatus.cfm_amt'></span>
+			  </div>
+		</div>
+	</div>
+	<div style="height: 30px;line-height: 22px;">
+		<div style="float: left;">已发货:&nbsp;</div>
+		<div class="progress"> 
+			  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="{{orderStatus.assign_pct}}" aria-valuemin="0" aria-valuemax="100" style="width: {{orderStatus.assign_pct}};color:red;">
+			    	<span ng-bind='orderStatus.assign_qty' ng-show='isShowQty'></span>
+			    	<span ng-show='!isShowQty' ng-bind='orderStatus.assign_amt'></span>
+			  </div>
+		</div>
+	</div>
+</div>
+</div>

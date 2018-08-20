@@ -1,0 +1,238 @@
+/*������Ϣҳ�棺��һ�ű�*/
+.mainTableFirst {
+    width: 15%;
+    font-family: Microsoft YaHei,verdana,arial,sans-serif;
+    font-size:13px;
+    float: left;
+
+}
+/*������Ϣҳ�棺��һ�ű�*/
+table.mainTableFirst td {
+    border-top: 1px;
+    border-bottom: 1px;
+    border-right: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(242,242,242);
+}
+/*������Ϣҳ�棺�ڶ��ű�*/
+.mainTableSecond {
+    width: 85%;
+    float: right;
+    text-align: center;
+    font-family: Microsoft YaHei,verdana,arial,sans-serif;
+    font-size:13px;
+    color: rgb(200,200,200);
+
+}
+/*������Ϣҳ�棺�ڶ��ű� ��˵�border*/
+.mainTableSecondBorder{
+    border-top: 1px;
+    border-style: solid;
+    border-color: rgb(242,242,242);
+}
+/*������Ϣҳ�棺�ڶ��ű�*/
+.mainTableSecondDiv {
+    border-bottom: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(242,242,242);
+    
+}
+/*������Ϣҳ�棺�����ű�*/
+.mainTableFive {
+    width: 85%;
+    text-align: center;
+    font-family: Microsoft YaHei,verdana,arial,sans-serif;
+    font-size:13px;
+    color: rgb(200,200,200);
+
+}
+/*������Ϣҳ�棺�����ű�*/
+table.mainTableFive td {
+    /* border-top: 1px;
+     border-bottom: 1px;*/
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(242,242,242);
+    width: 120px;
+
+}
+/*������Ϣҳ�棺�����ű�*/
+.mainTableThird {
+    width: 15%;
+    font-family: Microsoft YaHei,verdana,arial,sans-serif;
+    font-size:13px;
+    float: left;
+
+}
+/*������Ϣҳ�棺��*/
+table.mainTableThird td {
+    border-top: 1px;
+    border-bottom: 1px;
+    border-right: 1px;
+    padding-top: 21px;
+    padding-bottom: 22px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-style: solid;
+    border-color: rgb(242,242,242);
+}
+/*������Ϣҳ�棺modal*/
+.modalCss{
+    left: 10%;
+    top: 10%;
+    width: 80%;
+    min-height: 500px;
+    border-radius: 10px;
+}
+/*�б�ҳ�棺����*/
+.mainTable {
+    text-align: center;
+    line-height: 25px;
+    font-family: Microsoft YaHei,verdana,arial,sans-serif;
+    font-size:13px;
+    margin:0 auto;/*table ����*/
+    border-collapse: separate;
+
+
+}
+/*�б�ҳ�棺��*/
+table.mainTable th {
+    border-top: 1px;
+    padding: 8px;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(242,242,242);
+    vertical-align: middle!important;
+}
+/*�б�ҳ�棺��*/
+table.mainTable td {
+    border-top: 1px;
+    border-bottom: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(242,242,242);
+    vertical-align: middle!important;
+}
+/*����ҳ�棺checkbox���¾���*/
+.checkboxCenter{
+    top: 5px;
+}
+/*����ҳ�棺����*/
+.mainTableFourth {
+    line-height: 30px;
+    font-family: Microsoft YaHei,verdana,arial,sans-serif;
+    font-size:13px;
+    margin:0 auto;/*table ����*/
+    border-collapse: separate;/*ȡ��checkbox�ı߿�*/
+}
+/*����ҳ�棺��*/
+table.mainTableFourth th {
+    border-top: 1px;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(242,242,242);
+    vertical-align: middle!important;
+}
+/*����ҳ�棺��*/
+table.mainTableFourth td {
+    border-top: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: rgb(242,242,242);
+    vertical-align: middle!important;
+}
+/*����/������Ϣҳ�棺��������/��Ϣ�鿴*/
+.titleClass{
+    left: 23px!important;
+    margin-right: -45px!important;
+    font-weight:bold!important;
+}
+/*������Ϣҳ�棺��ͷ���弰������ɫ*/
+.title{
+    background-color:rgb(242,242,242)!important;
+    font-weight:bold;
+}
+/*������Ϣҳ�棺����padding*/
+.modalContent{
+    padding: 5%;
+}
+/*������Ϣҳ�棺��ɫ����*/
+.CheckClass{
+    color: rgb(0,0,0)!important;
+    font-size: 12px;
+}
+
+/*������Ϣҳ�棺��ɫ����*/
+.notCheckClass{
+    color: rgb(200,200,200);
+    font-size: 12px;
+}
+/*������Ϣҳ�棺p��ǩ*/
+.pClass{
+    font-family: Microsoft YaHei,verdana,arial,sans-serif;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight:bold;
+}
+/*������Ϣҳ�棺���Ǳ��button*/
+.button.icon-right:before {
+    padding-left: .9em;
+    font-size:13px;
+}
+/*������Ϣҳ�棺���Ǳ��button*/
+.buttonCss{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+/*
+    package用到的css
+*/
+.package .col-center{
+    text-align: center;
+}
+
+.package .fz{
+    font-size: 14px;
+}
+.package .col{
+    padding: 10px;
+    display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.package .bc{
+    color: rgb(136,136,136);
+}
+.package .bottonc{
+    color: rgb(58,155,251) !important;
+}
+.package .p0{
+    padding: 0px;
+}
+.package .pl0{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.package .pr0{
+    padding-right: 0px;
+}
+
+.package .pb0{
+    padding-bottom: 0px;
+}
+
+.package .button-outline.button-outline {
+    border-color: #b2b2b2;
+    background: transparent;
+}
+
+.col-15 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 15%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 15%;
+    -ms-flex: 0 0 15%;
+    flex: 0 0 15%;
+    max-width: 15%;
+}

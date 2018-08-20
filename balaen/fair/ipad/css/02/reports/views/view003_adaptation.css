@@ -1,0 +1,42 @@
+.view003-button{
+	-webkit-border-radius: 4px;
+	background-image: url("/fair/ipad/images/button.png");
+	background-size: 50px,30px;
+	color: #FFFFFF;
+}
+#view003-homepage{
+	background-image: url("/fair/ipad/images/homepage.png");
+	background-size: 50px,30px;
+}
+#view003-refresh{
+	background-image: url("/fair/ipad/images/refresh.png");
+	background-size: 50px,30px;
+}
+#view003-title{
+	background-color: white;
+}
+#view003-table-details{
+	background-color: white;
+}
+#view003-banner{
+	background-color: white;
+}
+#view003-container{
+	background-color: #FFFFFF;
+	background: url("/fair/ipad/img/02/background2.jpg");
+}
+.view003-max{
+	-webkit-border-radius: 4px;
+	background-color: #878787;
+	color: #FFFFFF;
+}
+#view003-table-max{
+	 right: 20px;
+}
+#view003-scrollbar-x > div{
+	width: 46%;
+}
+.view003-table-footer{
+	background-color: #999999;
+	color: #FFFFFF;
+}

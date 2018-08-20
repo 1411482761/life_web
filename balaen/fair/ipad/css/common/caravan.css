@@ -1,0 +1,55 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+	-webkit-user-select: none;
+	font-family: Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;
+}
+ul{
+	font-size:15px;
+	font-weight:600;
+	height: 48px;
+    list-style: outside none none;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0;
+    position: relative;
+    top: 110px;
+    width: 770px;
+}
+li{
+	float: left;
+    height: 48px;
+    max-height:48px;
+    padding: 0;
+    position: relative;
+    white-space: normal;
+    word-break : break-all; 
+    word-wrap: break-word;
+
+}
+.container{
+	width:800px;
+	height:600px;
+	margin:0 auto;
+	background: url("/fair/ipad/images/crowdfunding.jpg");
+}
+.cmodel{
+	width: 92px;
+	line-height: 48px; 
+}
+.cname{
+	width: 219px;
+	padding-top:5px;
+}
+.corder{
+	width: 118px;
+	line-height: 48px; 
+}
+.cgrap{
+	width: 108px;
+	line-height: 48px; 
+}

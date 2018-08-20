@@ -1,0 +1,49 @@
+<div>
+	<div style="float: left;" ng-if="!isAllTimeFilter">
+		<label for="chkAll" style="float: left;line-height: 30px;"><input id="chkAll" type="checkbox" ng-model="chkall"  ng-click="chkAll(chkall)"/>全选</label>&nbsp;
+		<td style="text-align:center"><button type="button" class="btn d_color {{isRem}}" ng-click="reminder();" >催单</button></td>
+	</div>
+	<div style="margin-bottom: 10px;float: right;">
+		<form class="form-inline">
+		<!-- 	<div class="form-group">
+				<label for="gys" class="sr-only">供应商</label>
+				<input type="text" class="form-control" id="gys" placeholder="供应商" ng-model="gys">
+			</div>&nbsp; -->
+			<div class="form-group">
+				  <select class="form-control" ng-model="ql" ng-options="m.name for m in qls" ng-change="selectAction(ql)" >  
+				  </select> 
+				 <!--  <span ng-if="isAllTimeFilter">
+					 <p class="input-group" ng-controller="dateDemo" style="margin: 0px;">
+	             
+	                    <input type="text" class="form-control" size="28" readonly datepicker-popup="{{format}}" ng-model="dt1" is-open="opened" min-date="minDate"  datepicker-options="dateOptions"  ng-required="true"  current-text="今天" clear-text="清除" close-text="关闭" >
+	                    <span class="input-group-btn">
+	                        <button type="button" class="btn btn-default" ng-click="open($event)" >
+	                            <i class="glyphicon glyphicon-calendar"></i>
+	                        </button>
+	                    </span>
+	                </p>
+	                -           
+	                <p class="input-group" ng-controller="dateDemo" style="margin: 0px;">
+	             
+	                    <input type="text" class="form-control" size="28" readonly datepicker-popup="{{format}}" ng-model="dt2" is-open="opened" min-date="minDate"  datepicker-options="dateOptions"  ng-required="true" current-text="今天" clear-text="清除" close-text="关闭">
+	                    <span class="input-group-btn">
+	                        <button type="button" class="btn btn-default" ng-click="open($event)" >
+	                            <i class="glyphicon glyphicon-calendar"></i>
+	                        </button>
+	                    </span>
+	                </p>
+                </span> -->
+                <span ng-show="isAllTimeFilter" ng-controller="dateDemo" >
+	                <input type="text" class="form-control" id="datepicker" ng-model="dt1"/> -
+	                <input type="text" class="form-control" id="datepicker2" ng-model="dt2"/>
+                </span>
+				<!-- <input type="text" class="form-control" size="4" name='ql' ng-model="$parent.ql1" onkeyup="this.value=this.value.replace(/[^-?\d\.]/g,'')" placeholder="欠量">至<input placeholder="欠量" type="text" class="form-control" size="4" name='ql' ng-model="$parent.ql2" onkeyup="this.value=this.value.replace(/[^-?\d\.]/g,'')"> -->
+				<label for="pdt" class="sr-only">商品</label>
+				<input type="text" class="form-control" id="pdt" placeholder="搜索" ng-model="$parent.pdt" ng-keypress="enter($event);">
+			</div>&nbsp;
+			<!-- <button type="submit" class="btn btn-primary {{isSel}}" ng-click='all_select()'>查询</button> -->
+			<button type="submit" class="btn d_color" ng-click='all_select()'>查询</button>
+		</form>
+	</div>
+</div>
+ 

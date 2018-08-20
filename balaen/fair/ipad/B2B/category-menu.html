@@ -1,0 +1,41 @@
+<div class="col-md-2 col-md-2 col-sm-2 product-menu" ng-controller="categoryMenuCtrl" ng-mouseover="headCategoryMouseover();" ng-mouseleave="headCategoryMouseleave();" style="position: absolute;z-index:3">
+    <h5 ng-click="back();">全部商品分类<span ng-if="headShow"  class="all-pdt-icon">∧</span><span ng-if="!headShow" class="all-pdt-icon">∨</span></h5>
+    <ul class="nav nav-stacked product-nav-pills" ng-disabled="disabled" ng-show="headShow" > <!-- headShow -->
+    	 <li  ng-mouseover="categoryMonse(category.id)"  ng-mouseleave="categoryMonseout(category.id)" ng-repeat="category in categorys" style="z-index: 19">
+            <a href="" id="left-menu_{{category.id}}" class="category_menu" ng-click="category_click(category.id,category.attribname,null,null,null,null)">{{category.attribname}}<span class="caret1" ng-if="category.category_sec.length>0" style="float: right;margin-top: 6px;"></span></a>
+          
+        <!--  ng-mouseenter, ng-mouseleave
+           <div class="left-menu_second row" ng-if="category.category_sec.length>0" style="position: absolute;height: 400px;width: 500px; background-color: white;left: 100%;top: 1%;z-index: 20">
+                <div class="col-md-4" ng-repeat="c in category.category_sec"><a href="#" ng-click="category_click(category.id,c.id)">{{c.attribname}}</a></div>
+            </div>
+         -->
+        </li>
+        
+       <!--   <li  ng-mouseover="categoryMonse(category.id)"  ng-mouseleave="categoryMonseout(category.id)" ng-repeat="category in categorys" style="z-index: 19" ng-show="$index<6">
+            <a href="" id="left-menu_{{category.id}}" class="category_menu" ng-click="category_click(category.id,category.attribname,null,null,null,null)">{{category.attribname}}<span class="caret1" ng-if="category.category_sec.length>0" style="float: right;margin-top: 6px;"></span></a>
+          
+        </li> -->
+
+       <!--  <li style="border: 3px solid rgb(200,22,35)!important;"></li> -->
+    </ul>
+    <div ng-mouseover="categoryMonse(category.id)"  ng-mouseleave="categoryMonseout(category.id)" class="left-menu_second row left-menu_second_{{category.id}}" name="left-menu_second"  id="left-menu_second_{{category.id}}"  ng-if="category.category_sec.length>0" style="" ng-repeat="category in categorys">
+         <!-- <div class="col-md-4" ng-repeat="c in category.category_sec" style="margin-top: 15px;"><a href="" ng-click="category_click(category,c)">{{c.attribname}}</a></div> -->
+ <!--         <div  ng-repeat="c in category.category_sec" style="margin: 8px 0px;" >
+	        &nbsp; <span  style="font-size: 12px;font-weight: bold;display: block;float: left;width: 136px;text-align: right;">{{c.attribname}} >
+	          	<hr style="margin-left: 0px;margin: 0;padding: 0;border-color: black;">
+	         </span>
+	         <div style="display: block;float: left;">
+	        	 <div class="col-md-4" ng-repeat="thr in c.category_thr"><a href="">{{thr.attribname}}</a></div>
+	        	 <span ng-repeat="thr in c.category_thr"><a href="" ng-click="category_click(category.id,category.attribname,c.id,c.attribname,thr.id,thr.attribname)" style="font-size: 12px;">{{thr.attribname}}</a></span>
+	         </div>
+         </div> -->
+         <div  ng-repeat="c in category.category_sec" style="margin: 8px 0px;" class="row">
+	       <span  style="font-size: 12px;font-weight: bold;text-align: right;width: 20%;padding-right: 0px;" class="col-md-2">{{c.attribname}} ></span>
+	
+	         <span class="col-md-10"  style="text-align: left;width: 80%">|
+	        	<!--  <div class="col-md-4" ng-repeat="thr in c.category_thr"><a href="">{{thr.attribname}}</a></div> -->
+	        	 <span ng-repeat="thr in c.category_thr"><a href="" ng-click="category_click(category.id,category.attribname,c.id,c.attribname,thr.id,thr.attribname)" style="font-size: 12px;">{{thr.attribname}}</a></span>
+	         </span>
+         </div>
+    </div>
+</div>

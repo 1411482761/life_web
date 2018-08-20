@@ -1,0 +1,30 @@
+<div class="container" ng-controller="MenuOrderCenterCtrl">
+    <div class="row">
+      <div class="col-md-2 col-sm-6 menu-back" ng-click="back();"><a href="">返回</a> </div>
+        <ul class="nav nav-pills menu-order" id="menu-order">
+       		<!-- <li class="col-md-2 col-sm-6 cur" ng-click="clickFair(0);"><a href="">日单</a></li>
+            <li class="col-md-2 col-sm-6" ng-click="clickFair(1);"><a href="">月单</a></li>
+            <li class="col-md-1 col-sm-6" ng-click="clickFair(2);"><a href="">汇总订单</a> </li> -->
+          	 <li  dropdown ng-repeat="menu in menus" ng-if="menu.hasMul && $index==0" class="dropdown col-md-2 col-sm-6 cur">
+                <a class="dropdown-toggle" dropdown-toggle ng-disabled="disabled" href="">{{menu.name}}<span class="caret"></span> </a>
+                <ul class="dropdown-menu dropdown-menu-change">
+                    <li ng-repeat="m in menu.options" ng-click="clickFair(0,menu,m);"><a href="">{{m.description}}</a></li>
+                  <!-- <li ng-click="clickFair($index,menu);"><a href="">1</a></li>
+                    <li ng-click="clickFair($index,menu);"><a href="">2</a></li> -->
+                </ul>
+            </li>
+          	 <li  dropdown ng-repeat="menu in menus" ng-if="menu.hasMul && $index != 0" class="dropdown col-md-2 col-sm-6">
+                <a class="dropdown-toggle" dropdown-toggle ng-disabled="disabled" href="">{{menu.name}}<span class="caret"></span> </a>
+                <ul class="dropdown-menu dropdown-menu-change">
+                    <li ng-repeat="m in menu.options" ng-click="clickFair(1,menu,m);"><a href="">{{m.description}}</a></li>
+                  <!-- <li ng-click="clickFair($index,menu);"><a href="">1</a></li>
+                    <li ng-click="clickFair($index,menu);"><a href="">2</a></li> -->
+                </ul>
+            </li>
+            <!-- <li ng-repeat="menu in menus" ng-if="$index==0 && !menu.hasMul && !menu.isMonthMenu && !isEndUser" class="col-md-2 col-sm-6" ng-click="clickFair($index,menu,'');" ><a href="">{{menu.name}}</a></li> -->
+            <li ng-repeat="menu in menus" ng-if="$index!=0 && !menu.hasMul && !menu.isMonthMenu" class="col-md-2 col-sm-6" ng-click="clickFair($index,menu,'');"><a href="">{{menu.name}}</a></li>
+            <li ng-repeat="menu in menus" ng-if="$index!=0 && !menu.hasMul && menu.isMonthMenu && !isEndUser" class="col-md-2 col-sm-6" ng-click="clickFair($index,menu,'');"><a href="">{{menu.name}}</a></li>
+        </ul>
+    </div>
+       
+</div>

@@ -1,0 +1,148 @@
+.dropdown-menu-change_order li a:HOVER{
+	background-color: rgb(232,48,35);
+	color: #fff;
+}
+.dropdown:hover .dropdown-menu-change_order{
+    display: block;
+}
+.detail-head{
+	line-height: 40px; 
+}
+.detail-left{
+	float: left;
+	text-decoration: none;
+	cursor: pointer;
+}
+.detail-center{
+	text-align: center;
+	color: rgb(200,22,35);
+	display: inline;
+	margin-left: 30%;
+}
+.detail-right{
+	float: right;
+}
+.head-margin{
+	float: right;
+}
+.head-margin span{
+	margin: 0 8px;
+}
+.top div{
+	/* height:36px;
+	line-height: 36px; */
+	height:30px;
+	line-height: 30px;
+}
+.order-center,.order-center:HOVER {
+    color:red;
+    font-size: 16px;
+    font-family:Arial;
+    text-align: center;
+    cursor: pointer;
+}
+
+.page-list .pagination {float:left;}
+.page-list .pagination span {cursor: pointer;}
+.page-list .pagination .separate span{cursor: default; border-top:none;border-bottom:none;}
+.page-list .pagination .separate span:hover {background: none;}
+.page-list .page-total {float:left; margin: 25px 20px;}
+.page-list .page-total input, .page-list .page-total select{height: 26px; border: 1px solid #ddd;}
+.page-list .page-total input {width: 40px; padding-left:3px;}
+.page-list .page-total select {width: 50px;}
+
+.pagination > .d_color > span,.pagination > .d_color > span:HOVER{
+	background-color:rgb(234,107,0);
+	border-color: rgb(234,107,0);
+	color:#fff;
+	z-index: 2;
+}
+.d_color.disabled{
+	background-color: #aaa;
+	border-color: #aaa;
+}
+.d_color,.d_color:HOVER{
+	background-color:rgb(234,107,0);
+	border-color: rgb(234,107,0);
+	color:#fff!important;
+}
+
+.table_head{
+	white-space:nowrap;
+	background-color: rgb(200,22,35) !important;
+	color: white;
+	/* z-index: 2; 
+	position: fixed; 
+	top:160px; */
+	/* top:expression((this.offsetParent.scrollTop>this.parentElement.parentElement.offsetTop?this.offsetParent.scrollTop-this.parentElement.parentElement.offsetTop-1:0)-1); */
+}
+.table_head th{
+	text-align: center; 
+}
+
+.table_data{
+	clear: both;
+	z-index: 1;
+	position: relative;
+	bottom: 0;
+	  height: 65%;  
+	/*  height: expression(document.body.offsetHeight + "px");  */
+	/* http://www.miaoyueyue.com/archives/813.html */
+}
+
+.numStyle{
+	text-align: center;
+}
+.btn-mg {
+   /*  background-color: rgb(201,25,36);
+    border-color: #d43f3a;
+    color: #fff !important; */
+     background-color: rgb(228,228,228);
+     color: rgb(201,25,36)!important;
+    
+}
+.btn-mg:HOVER {
+	background-color: rgb(201,25,36);
+	color: #fff!important;
+	/* background-color: #d9534f;
+	border:2px solid red; */
+}
+.btn-group-lg > .btn, .btn-lg{
+	padding: 6px 12px;
+}
+
+@media (min-width: 1200px) {
+
+} 
+/* ÏÔÊ¾Æ÷ */
+@media (max-width: 1920px) {
+	.top-fix{
+		margin-top: 1.5%;    
+    }
+}
+/* ±Ê¼Ç±¾ */
+@media (max-width: 1370px) {
+	.top-fix{
+		margin-top: 2.5%;    
+    }
+     .table_data{
+    	height: 55%;
+    }
+}
+           
+@media screen and (min-width: 960px) and (max-width: 1199px) { 
+	 .top-fix{
+		margin-top: 3%;    
+    }
+} 
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	 .top-fix{
+		margin-top: 3%;    
+    }
+} 
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+	
+} 
+@media only screen and (max-width: 479px) { 
+	
+}

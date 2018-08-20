@@ -1,0 +1,90 @@
+body{
+	color: #8E8E8E;
+}
+#container{
+	width: 100%;
+	background: url("/fair/ipad/img/02/background1.jpg");
+}
+#picture{
+	position:absolute;
+	top:0px;
+	height:140px;
+	background: url("/fair/res/picture.png");
+	background-size: 100%,100%;
+	background-repeat: no-repeat;
+	z-index: 999;
+}
+.bcol3 colspan1{
+	width: 100px;
+	height: 60px;
+	background-size: 100%,100%;
+	z-index: 1000;
+}
+#evaluation-desc{
+	-webkit-border-radius: 4px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#868787), to(#878787));
+	color: #FFFFFF;
+}
+#evaluation-save{
+	-webkit-border-radius: 4px;
+	background: -webkit-gradient(linear,left top,left bottom,from(#868787), to(#878787));
+	color: #FFFFFF;
+}
+.moduledesc{
+	-webkit-border-radius: 4px;
+	color: #000;
+	font-size: 18px;
+	font-family: Ó×Ô²£»
+}
+#textarea-val{
+	height:260px;
+	background: url("/fair/ipad/img/02/tablebackground.png");
+	background-size: 100%,100%;
+	background-repeat: no-repeat;
+}
+#textarea-val .bremark2{
+	border: 1px dotted red;
+	height:250px;
+	margin-left:13px;
+	margin-right:13px;
+}
+.buttons{
+	height: 30px;
+	line-height: 30px;
+	-webkit-border-radius: 4px;
+}
+#submit{
+	height: 50px;
+	-webkit-border-radius: 4px;
+	background-image: url("/fair/ipad/img/02/submit.png");
+	background-size: 100%,100%;
+}
+.button-desc{
+	height: 30px;
+	color: #FFFFFF;
+	line-height: 25px;
+}
+/* .bcol2{ */
+/* 	border-right: 1px dotted red; */
+/* } */
+
+/* #changepwd{ */
+/* 	font-size: 12px; */
+/* 	text-align:center; */
+/* 	line-height:30px; */
+/* 	font-size:14px; */
+/* 	color:#2e7e90; */
+/* 	font-family: Times,TimesNR,"New Century Schoolbook",Georgia,"New York",serif; */
+/* /* 	background-image: url("/fair/ipad/images/button.png"); */ */
+/* 	background-size: 70px,30px; */
+/* } */
+#getmore{
+	font-size: 12px;
+	text-align:center;
+	line-height:30px;
+	font-size:14px;
+	color:#2e7e90;
+	font-family: Times,TimesNR,"New Century Schoolbook",Georgia,"New York",serif;
+/* 	background-image: url("/fair/ipad/images/button.png"); */
+	background-size: 70px,30px;
+}

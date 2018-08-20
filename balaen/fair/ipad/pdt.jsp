@@ -1,0 +1,1 @@
+<jsp:forward page="/fair/ipad/pdt/object.jsp"/>

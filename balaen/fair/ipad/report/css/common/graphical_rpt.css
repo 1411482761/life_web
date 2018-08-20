@@ -1,0 +1,270 @@
+html{
+	padding: 0px;
+	margin:0px;
+	width: 100%;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	text-align: left;
+	-webkit-user-select: none;
+	font-size: 12px;
+	font-family: Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;
+}
+html{
+	margin-top: -20px;
+
+}
+.mask{
+	width: 100%;
+	height:50px;
+	position: fixed;
+	top:0px;
+	z-index: 998;
+	background-color: #fff
+
+}
+ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+li{
+	padding: 0px;
+	margin: 0px;
+}
+table{
+   border-collapse:collapse;
+   border: 1px solid #A6A6A6;
+   white-space: nowrap;
+   width: 100%;
+   overflow: auto;
+}
+th,td{
+	border: 1px solid #A6A6A6;
+}
+td{
+	position: relative;
+	height: 20px;
+}
+thead td{
+	font-weight: bold;
+	text-align: center;
+}
+
+#chart_container{
+	margin-top:50px;
+	padding:5px 10px 5px 10px;
+}
+#rpt-filter {
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    position: fixed;
+    right: 50px;
+    text-align: center;
+    top: 8px;
+    z-index: 999;
+}
+ul#rpt-filter li {
+    float: right;
+    margin-left: 4px;
+    min-width: 80px;
+}
+#showstores{
+	height:29px;
+	font-size: 14px;
+}
+div[id^="fixedcolumns"]{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 890;
+	width: 100%;
+	overflow: hidden;
+	max-height:100%;
+}
+#container{
+ 	position: absolute;
+ 	width: 100%;
+	height: 740px;
+}
+li {
+    float: left;
+}
+#rpt-banner{
+	position: fixed !important;
+	z-index:999 !important;
+	top:0px;
+}
+#rpt-buttons{
+	position: relative;
+	width: 320px;
+	height: 44px;
+	text-align: center;
+}
+#rpt-buttons ul{
+	position: relative;
+	margin-left: 12px;
+	top: 8px;
+	height: 32px;
+}
+.rpt-button-value{
+	position: absolute;
+	top: 50%;
+	margin-top: -11px;
+	width:74px;
+	height: 22px;
+}
+.rpt-button{
+	position: relative;
+	bottom: 3px;
+	width: 74px;
+	height: 100%;
+	display: block;
+	font-size: 15px;
+	margin-right: 24px;
+}
+div[id^="rpt-title"]{
+	font-weight:bold;
+	position: relative;
+	text-align: center;
+	font-size: 15px;
+	width: 224px;
+	height: 22px;
+	z-index: 20;
+	left: 40%;
+}
+div[id^="table-container"]{
+	overflow-x:auto; 
+    position: relative;
+    top: 50px;
+    left:4px;
+    height: auto;
+    width: 99%;
+    clear:both;
+}
+div[id^="table"]{
+	overflow: auto;
+}
+#loading {
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	width:100px;
+	height:100px;
+    margin-left: -50px;
+    margin-top: -50px;
+	background-image: url("/fair/ipad/img/loading.gif");
+	z-index: 1000;
+	display: none;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 30px #06C;
+}
+#loadinglocale{
+	position: absolute;
+	width: 74px;
+	height: 22px;
+	left: 50%;
+	top: 50%;
+	margin-left: -37px;
+	margin-top: -11px;
+	text-align: center;
+	background-color: transparent;
+	color: #fff;
+	font-size: 12px;
+}
+div.toolbar{
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	padding: 0 12px;
+}
+div[id^="toolbars"]{
+	/* display: none; */
+	margin-top: 55px;
+	width: 100%;
+	height: 40px;
+}
+div.toolbardesc{
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+}
+div.toolbarimg{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+}
+div[id^="prev"]{
+	 display: none; 
+	left: 12px;
+}
+div[id^="prev"] .toolbardesc{
+	float: left;
+}
+div[id^="prev"] .toolbarimg{
+	left: 12px;
+	background: url('/fair/ipad/img/order_prev.png');
+}
+div[id^="prev"] .toolbardesc{
+	float: right;
+}
+div[id^="next"] .toolbarimg{
+	right: 12px;
+	background: url('/fair/ipad/img/order_next.png');
+}
+div[id^="next"] .toolbardesc{
+	float: left;
+}
+div[id^="page"]{
+	position: absolute;
+	width: 350px;
+	height: 40px;
+	left: 50%;
+	margin-left: -109px;
+}
+div[id^="current"]{
+	position: absolute;
+	left: 0px;
+	width: 86px;
+	height: 40px;
+	line-height: 40px;
+}
+div[id^="current"] select{
+	position: absolute;
+	display: block;
+	height: 24px;
+	top: 50%;
+	font-size: 18px;
+	margin-top: -12px;
+}
+div[id^="total"]{
+	position: absolute;
+	right: 0px;
+	width: 170px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+}
+div[id^="total"] span{
+	font-weight: bold;
+}
+div[id^="next"]{
+	right: 12px;
+}
+table tr td.data{
+	text-align:right !important;
+}
+.Pdtimg{
+	height:60px;
+}
+.Dumpimg{
+	height:100%;
+}
+div[id^="fixedcolumns"]{
+	background: #c7c7c7;
+}

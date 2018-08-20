@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+body,html {
+	color: white;
+	background-color: #101010;
+}
+thead,tfoot{
+	background-color: #024770;
+}
+td.data{
+	background: gray;
+}
+div#kpi-filter {
+     -webkit-border-radius: 18px;
+     background-color: #5E5E5E;
+    border: 1px solid #5F5F5F;
+}
+div#title{
+	background-color: #101010;
+}
+div#back{
+    -webkit-border-radius: 18px;
+	border: 1px solid #5F5F5F;
+	background-color: #5E5E5E;
+}
+div#synchronize{
+    -webkit-border-radius: 18px;
+	border: 1px solid #5F5F5F;
+	background-color: #5E5E5E;
+}
+#loading{
+	position: absolute;
+	top: 0px;
+	width: 1024px;
+	height: 748px;
+	text-align: center;
+	line-height: 748px;
+	z-index: 999;
+	font-size: 16px;
+	background-color: gray;
+}
+div.toolbar{
+    -webkit-border-radius: 18px;
+	border: 1px solid #5F5F5F;
+	background-color: #5E5E5E;
+}

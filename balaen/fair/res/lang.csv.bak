@@ -1,0 +1,130 @@
+id,zh_cn,en_us
+about,修改密码,About
+access_denied,用户名或密码错误,Access denied
+access_granted,登录成功,Access granted
+adv_search,查询条件,Search
+app_will_background,是否立刻打开浏览器?,Open web browser?
+app_will_logout,您确认退出系统吗?,Are you sure to logout?
+are_you_sure,你确定?,Are you sure?
+back,返回,Back
+batch,批处理,Action
+buy,购买,Buy
+cancel,取消,Cancel
+cart,购物车,Cart
+chart,组评分,Group
+chinese,中文,中文
+close,关闭,Close
+color,颜色,Color
+size,尺码,Size
+comment,讨论,Comments
+compere,主讲人,Compere
+complete,完成,Finished
+config,设置,Config
+config_not_found,缺少配置文件,Missing config file
+database_error,数据库出错,Database error
+demo,演示系统,Demo
+detail,属性,Detail
+discard,放弃,Discard
+empty_store_list,门店清单为空,Empty store list
+english,English,English
+fail,失败,Failed
+follow,跟随主讲,Follow
+ideal_size_ratio,计划,Ideal
+in_app_purchase,KPI功能是收费模块，您确认购买吗?,"KPI is not free of charge, do you want to buy this feature?"
+inapp_fail,购买失败,Fail
+inapp_success,购买成功,Success
+internal_error,内部错误,Internal error
+backstage,订单提交,Backstage
+kpi,分析,KPI
+login,登录,Sign In
+logout,退出,Logout
+local_not_sync,本地数据同步失败,Offline data sync failed
+local_not_sync_kpi,本地数据同步失败，KPI无法获得最新数据,"Offline data sync failed, KPI data not accurate"
+manual,手册,Manual
+mark,多选,Mark
+max,最大值,Max
+min,最小值,Min
+need_password,请输入密码,Password please
+negative_not_allow,不允许负数,Found negative value
+network_error,网络异常,Network error
+need_confirm_reorder,重新计算将覆盖您手动输入的订单内容，继续?,"You have manual input in your po, continue?"
+next,下页,Next
+no,否,NO
+no_change,无更新内容,Nothing changed
+no_compere_available,没有主讲人可选,No compere available
+no_fair_available,没有发现可进入的订货会,No fair available
+no_pdf_available,当前列表无对应订货手册,No PDF available
+no_product_available,没有符合条件的商品,No product available
+missing,丢失,Missing
+ok,OK,OK
+order,下单,Order
+overflow,值过大,Value too big
+overwrite_warning,修改将覆盖您手动输入的订单内容，继续?,"You have manual input in your po, continue?"
+pair,配搭,Matching
+parameter_not_found,缺少输入参数,Missing input
+password,密码,password
+prev,上页,Prev
+quickorder,快速下单,Quick PO
+ratio,颜色比例,Ratio
+ratio_mismatch,比例不匹配,Ratio not match
+reach_end,已到底，从头开始,"Reach end of list, start from the begining"
+readonly,您没有下单权限,You have no order permission
+readonly_mode,当前是只读模式,You are in readonly mode
+refresh,刷新,Refresh
+reload,重载,Reload
+remove,清除,Remove
+reset,重置,Reset
+restart_app,请重新启动软件,Please restart the application.
+running,处理中...,Server executing...
+save,保存,Save
+save_warning,是否保存?,Do you want to save your change?
+saved,已保存,Saved
+search,查找,Search
+search_cart,购物车,Shopping Cart
+search_hint,快速查找,Quick search
+search_kpi,查找结果,Search Result
+search_result,查找结果,Search Result
+search_return_null,没有符合条件的商品,No item match your search
+select_all,未选中商品，是否全选?,"You have selected nothing, Select all?"
+select_compere,请先指定主讲人,Please set a compere to follow
+select_fair,发现多个订货会，请选择其一进入,"Found multiple fairs, please select one to join"
+select_buyer,选择买手身份,Please select one buyer to view
+select_ratio,请设置颜色比例,Please set the color ratio
+server_address,服务器地址,Server address
+set,设置,Setup
+signup,注册,Sign Up
+suggest,建议,Suggest
+sync_in_progress,正在同步,Syncing...
+template_mismatch,模板不匹配,Template not match
+tolist,列表,To List
+total_selection,已选择,Selected
+unknown_error,未知错误,Unknown error
+updated,已更新,Updated
+username,用户名,username
+warehouse,店仓明细,Detail
+yes,是,YES
+zerofill,清零,Fill Zero
+whs,仓库,Warehouse
+total,所有,Total
+rw_readonly,只读模式,Read only
+rw_readwrite,修改模式,Readwrite
+select_readonly,请选择读写模式,Please select readonly or edit mode
+textfield,点此输入,Please input
+ranking,龙虎榜,Ranking
+offline_mode,当前处于离线模式,Server no response, offline mode
+lock_device,锁定此系统？,Lock this system?
+orderdist,铺货,Distribute
+ordermatrix,订单输入,Order
+orderlist,库存,Store
+require_star,请先评星再下量,Please rating first to order
+hint_fillqty,填写总量,Fill Quantity
+hint_qty,订单件数合计,Total Quantity
+require_login,需要重新登陆,Please login again
+offline_timeout,长时间未与服务器同步，基于订货会安全策略，您将被强制登出,"Server not available, for security reason, you will be logged out"
+list_sum_line,当前列表 商品数量：%@  合计金额：%@  合计订量：%@,Products:%@  Price:%@  Quantity:%@
+iap_message,此功能不是免费的，是否购买解锁？,This is a paid service. do you want to purchase to unlock?
+value_changed_confirm,您修改了总量，保存？,You changed quantity, Save?
+restore_iap,验证购买信息,Restore your purchase
+purchase_iap,购买,Purchase
+matrix_sum,合计,∑
+matrix_ratio,占比％,％

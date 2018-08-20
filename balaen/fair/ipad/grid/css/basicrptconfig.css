@@ -1,0 +1,96 @@
+/*@charset utf-8*/
+body{position:relative;width:700px;margin:0 auto;font-size:12px;}
+#left {
+    position: absolute;
+    width: 240px;
+}
+.target{
+	position:relative;
+	left:10px;
+	height:588px;
+    top: 8px;
+    width: 202px;
+	border: 1px solid #ccc;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+     overflow-x: hidden;
+    overflow-y: auto;
+}
+.recreate p{
+	left: 43px;
+    position: relative;
+    top: -46px;
+}
+.recreate{
+	height:35px;
+	width:150px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.target span {
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+}
+.target span.on{
+	background: #DF8193;
+	color: #ffffff;
+}
+#middle{
+	position:absolute;
+	top:252px;
+    left:230px;
+    width:100px;
+}
+#right {
+	position:absolute;
+	top:44px;
+    left:340px;
+    height:544px;
+    width:334px;
+    padding-top:40px;
+    border: 1px solid #ccc;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+p {
+    margin: 20;
+    padding: 0;
+}
+#right p {
+    line-height: 42px;
+    width: 300px;
+}
+.configure span.reportname, .configure .db_name,.configure input.reportname {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    float: right;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 214px;
+}
+div.button {
+    bottom: 2px;
+    left: 10px;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+}
+div.button button {
+    background-image: url("/fair/ipad/grid/images/submit.png");
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    height: 35px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    width: 90px;
+}

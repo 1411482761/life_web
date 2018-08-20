@@ -1,0 +1,120 @@
+/*@charset utf-8*/
+body{position:relative;width:960px;margin:0 auto;font-size:12px;}
+ul,li{list-style:none;padding:0;margin:0}
+#top{
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:16px;
+	width:100%;
+	text-align: left;
+}
+#middle{
+	position:relative;
+	width:100%;
+	height:550px;
+}
+#tables{
+	position:absolute;
+	top:0px;
+	width:143px;
+	border:1px solid #ccc;
+	border-right:0px;
+}
+#columnstree{
+	position:absolute;
+	top:0px;
+	left:143px;
+	width:200px;
+	border:1px solid #ccc;
+	height:100%;
+	overflow: auto;
+}
+#tables span,#columnstree span {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+	height:35px;
+	line-height:35px;
+	cursor:pointer;
+	border-right:0px;
+}
+span.on{
+	background:#4886BA !important;
+	color: #fff;
+}
+#middle .mdiv{
+	position: absolute;
+	top:100px;
+	left:345px;
+	width:212px;
+}
+#middle .build{
+	position: absolute;
+	top:130px;
+	left:557px;
+	width:50px;
+}
+#middle .build button{
+	width:56px;
+	height:35px;
+	margin-bottom:50px;
+	cursor: pointer;
+}
+#middle .mdiv button{
+	margin-top:10px;
+	margin-left:10px;
+	height:30px;
+}
+div.button{
+	width:230px;
+	text-align: center;
+}
+div.button button {
+    background-image: url("../images/submit.png");
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    height: 35px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    width: 90px;
+}
+.relatecols{
+	display: inline-block;
+	border:1px solid #ccc;
+	height: 30px;
+	line-height: 30px;
+	text-align:center;
+    width: 150px;
+    margin-top:10px;
+}
+#relationcolumns{
+	position: absolute;
+	top:0px;
+	right:0px;
+	width:344px;
+	height:100%;
+	border:1px solid #cecece;
+	overflow: auto;
+}
+#relationcolumns ul li{
+	height:30px;
+	margin: 5px auto;
+	text-align: center;
+	cursor: pointer;
+}
+#relationcolumns ul li span{
+	display:inline-block;
+	border:1px solid #ccc;
+	height:100%;
+	line-height:30px;
+	text-align:center;
+	width:135px;
+	background: #e1e1e1;
+}
+div#bottom{
+	text-align:center;
+	margin-top:10px;
+	width:100%;
+}

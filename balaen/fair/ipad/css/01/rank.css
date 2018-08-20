@@ -1,0 +1,47 @@
+﻿@CHARSET "UTF-8";
+#banner{
+	background-image: url("/fair/ipad/img/banner.jpg");
+	background-repeat: repeat-x;
+}
+#refresh,#deploy,#search,#filter{
+	border: 1px solid #5F5F5F;
+	-webkit-border-radius: 18px;
+	background-color: #707070;
+}
+#content {
+    background-color: white;
+    background-image: url("/fair/ipad/img/body.jpg");
+    background-repeat: repeat;
+}
+#active{
+	background: -webkit-gradient(linear,left top,left bottom,from(#b0b0b0), to(#262626));
+}
+#active-words{
+	color: white;
+}
+.goods {
+    margin-left: 21px;
+    margin-right: 30px;
+}
+.t1 {
+	box-shadow: 2px 2px 4px grey;
+}
+.a1 {
+	width: 95px;
+	height: 18px;
+	float: left;
+	text-align: left;
+}
+.a2 {
+	width: 95px;
+	height: 18px;
+	float: left;
+	text-align: right;
+}
+.a4 {
+	width: 95px;
+}
+#footer {
+	background-color: EAEBEF;
+	background-image: url("/fair/ipad/img/footer.png");
+}

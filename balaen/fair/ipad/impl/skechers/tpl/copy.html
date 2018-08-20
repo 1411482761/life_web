@@ -1,0 +1,39 @@
+<ion-modal-view view-cache="false" class="modalCss">
+
+        <ion-header-bar class="bar bar-header bar-light">
+            <button ng-click="copyOrderService.reject();" class="button button-clear icon ion-ios-arrow-back"></button>
+                <h1 class="titleClass title">订单复制</h1>
+        </ion-header-bar>
+        <ion-content>
+             <div class="modalContent">
+                 <center>
+                     是否将——{{storeName}}——订单复制到
+                 </center>
+                 <br/>
+                 <center><button ng-click="copyOrderService.resolve()" class="button button-small button-positive" style="margin-left: 80%;width: 70px">复制</button></center>
+                 <br/>
+
+                 <center>
+                     <table class="mainTableFourth">
+                         <tr class="title">
+                             <th>
+                                 <label class="checkbox checkbox-positive checkboxCenter">
+                                     <input type="checkbox"  ng-model="defineScope.checkAll" ng-change="toggleAll()">
+                                 </label>
+                             </th>
+                             <th  style="width: 68px">店铺等级</th><th>店铺名称</th>
+                         </tr>
+                         <tr ng-repeat="sDC in storeDateCopy">
+                             <td>
+                                 <label class="checkbox checkbox-positive checkboxCenter">
+                                    <input type="checkbox"  ng-model="sDC.checked"  ng-change="toggle(sDC)">
+                                 </label>
+                             </td>
+                             <td  ng-repeat="D in sDC"  ng-if="$index != 0" ng-bind="D"></td>
+                         </tr>
+                     </table>
+                 </center>
+             </div>
+         </ion-content>
+
+</ion-modal-view>

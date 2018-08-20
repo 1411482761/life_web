@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="recoveryOrder">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Fair">
+    <meta name="author" content="上海贯信信息技术有限公司">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link rel="stylesheet" href="/fair/ipad/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/fair/ipad/impl/balabala/pageNation/css/index.css">
+    <script src="/fair/ipad/js/jquery-1.11.3.js"></script>
+    <script src="/fair/ipad/js/bootstrap/bootstrap.min.js"></script>
+    <script src="/fair/ipad/impl/js/angular.min.js"></script>
+    <script src="/fair/ipad/impl/skechers/js/angular-cookies.js"></script>
+    <script src="/fair/ipad/impl/balabala/copyOrder/js/recovery.js"></script>
+</head>
+<body ng-controller="MyCtrl">
+<center>
+
+    <table class="mainTableFourth">
+        <tr class="title">
+            <th>删除时间</th><th>总订货数量</th><th>总订货金额</th><th></th>
+        </tr>
+        <tr ng-click="changColor($index);" class="default click_{{$index}}"  ng-repeat="sD in deleteData track by $index">
+
+            <td ng-repeat="D in sD track by $index"  ng-if="$index != 0" ng-bind="D"></td>
+            <td>
+
+                <ul class="nav nav-tabs">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            确认恢复 <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" ng-click="recovery(sD)">是</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">否</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+               <!-- <input type="button" value="确认恢复" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                    &times;
+                                </button>
+                                <h4 class="modal-title" id="myModalLabel">
+                                    是否确认恢复？
+                                </h4>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    否
+                                </button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" ng-click="recovery()"> //这里取不到值，所以不考虑用模态框了
+                                    是
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+            </td>
+
+        </tr>
+    </table>
+
+</center>
+</body>
+</html>

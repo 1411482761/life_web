@@ -1,0 +1,21 @@
+#view012-banner{
+	background: #101010;
+}
+.view012-button{
+	border: 1px solid #5F5F5F;
+	-webkit-border-radius: 18px;
+	background-color: #5e5e5e;
+}
+#view012-container{
+	background: -webkit-gradient(linear,left top,left bottom,from(#606060), to(#101010));
+}
+.view012-max{
+	background-color: #f49d56;
+	-webkit-border-radius: 10px;
+}
+#view012-scrollbar-x > div{
+	min-height: 7px;
+}
+.view012-table-footer{
+	background-color: #4e4f4e;
+}

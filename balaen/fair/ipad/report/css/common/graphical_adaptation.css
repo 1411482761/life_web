@@ -1,0 +1,233 @@
+
+body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	-webkit-user-select: none;
+	font-size: 12px;
+	font-family: Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;
+}
+ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+li{
+	padding: 0px;
+	margin: 0px;
+}
+table{
+  border-collapse:collapse;
+  border: 1px solid #A6A6A6;
+  white-space: nowrap;
+  width: 100%;
+  overflow: auto;
+}
+th,td{
+	border: 1px solid #A6A6A6;
+}
+td{
+	position: relative;
+	height: 20px;
+}
+thead td{
+	font-weight: bold;
+	text-align: center;
+}
+#rpt-filter {
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    top: 8px;
+    z-index: 999;
+	background-size: 70px,30px;
+}
+ul#rpt-filter li {
+    float: right;
+    margin-left: 4px;
+    min-width: 50px;
+}
+#showstores{
+	height:29px;
+	font-size: 14px;
+}
+div[id^='fixedcolumns']{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 890;
+	width: 100%;
+	overflow: hidden;
+	background: #c7c7c7;
+	max-height:100%;
+}
+#container{
+ 	position: absolute;
+ 	width: 100%;
+	height: 740px;
+}
+li {
+    float: left;
+}
+#rpt-banner{
+	position: fixed;
+	z-index: 999;
+	top: 0px;
+}
+#rpt-buttons{
+	position: relative;
+	width: 140px;
+	height: 30px;
+	text-align: center;
+	top: 5px;
+}
+#rpt-buttons ul{
+	position: relative;
+	margin-left: 12px;
+	top: 8px;
+	height: 30px;
+}
+.rpt-button{
+	position: relative;
+	bottom: 3px;
+	width: 50px;
+	height: 30px;
+	display: block;
+	font-size: 12px;
+	margin-right: 6px;
+}
+div[id^='rpt-title']{
+	font-weight:bold;
+	position: relative;
+	text-align: center;
+	font-size: 15px;
+	width: 224px;
+	height: 22px;
+	z-index: 20;
+	left: 30%;
+}
+div[id^="table-container"]{
+    position: relative;
+    top: 50px;
+    left:4px;
+    height: 600px;
+    width: 99%;
+    overflow:hidden;
+}
+div[id^="table"]{
+	overflow: auto;
+}
+#loading {
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	width:100px;
+	height:100px;
+    margin-left: -50px;
+    margin-top: -50px;
+	background-image: url("/fair/ipad/img/loading.gif");
+	background-color: transparent;
+	z-index: 1000;
+	display: none;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 30px #06C;
+}
+#loadinglocale{
+	position: absolute;
+	width: 74px;
+	height: 22px;
+	left: 50%;
+	top: 50%;
+	margin-left: -37px;
+	margin-top: -11px;
+	text-align: center;
+	background-color: transparent;
+	color: #fff;
+	font-size: 12px;
+}
+div.toolbar{
+	position: absolute;
+	width: 50px;
+	height: 30px;
+	padding: 0 12px;
+}
+ div[id^='toolbars']{
+	/* display: none; */
+	margin-top: 55px;
+	width: 100%;
+	height: 40px;
+}
+div.toolbardesc{
+	height: 30px;
+	font-size: 11px;
+	line-height: 30px;
+}
+div.toolbarimg{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+}
+div[id^='prev']{
+	 display: none;
+	left: 12px;
+}
+div[id^='prev'] .toolbardesc{
+	float: left;
+}
+div[id^='prev'] .toolbarimg{
+	left: 0px;
+	background: url('/fair/ipad/img/order_prev.png');
+	background-size: 30px,30px;
+}
+div[id^='prev'] .toolbardesc{
+	float: right;
+}
+div[id^='next'] .toolbarimg{
+	right: 0px;
+	background: url('/fair/ipad/img/order_next.png');
+	background-size: 30px,30px;
+}
+div[id^='next'] .toolbardesc{
+	float: left;
+}
+div[id^='page'] {
+	position: absolute;
+	width: 120px;
+	height: 30px;
+	left: 40%;
+	margin-left: -10px;
+}
+div[id^='current'] {
+	position: absolute;
+	left: 0px;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+}
+div[id^='current']  select{
+	position: absolute;
+	display: block;
+	height: 20px;
+	top: 50%;
+	font-size: 10px;
+	margin-top: -12px;
+}
+div[id^='total'] {
+	position: absolute;
+	right: -10px;
+	width: 55px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 11px;
+}
+div[id^='total']  span{
+	font-weight: bold;
+}
+div[id^='next']{
+	right: 8px;
+}

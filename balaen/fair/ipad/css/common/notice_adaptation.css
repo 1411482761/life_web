@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #EFEFF4;
+}
+#back{
+	text-align: center;
+	border-radius: 4px;
+	color: #2E90FD;
+	width:50px;
+	height:20px;
+	line-height:20px;
+	font-size: 16px;
+}
+#container{
+	margin:0 auto;
+}
+#title{
+	width:100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+}
+ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+li{
+	padding: 0px;
+	margin: 0px;
+}
+#nomsg{
+	width:200px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	font-size:14px;
+}
+#noticelist{
+	margin: 0 auto 50px;
+}
+#noticelist li{
+	clear:both;
+	padding-top:30px;
+}
+#noticelist li > div{
+	float: left;
+	margin-left:10px;
+}
+.uimg{
+	width:48px;
+	height:48px;
+	margin:0 auto;
+	background: url("/fair/ipad/img/user_other.png");
+}
+.msg{
+	color:#1d1d1d;
+	margin-right:13px;
+}
+.contents{
+	width:100%;
+}
+.title,.uname,.datetime{
+	color:#999999;
+}
+.datetime{
+	position:absolute;
+	width:97px;
+	height:30px;
+	left: 180px;
+	margin-left: 20px;
+}

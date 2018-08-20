@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: #EFEFF4;
+}
+#container{
+	width:100%;
+	margin:0 auto;
+}
+#title{
+	width:100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+}
+ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+li{
+	padding: 0px;
+	margin: 0px;
+}
+#nomsg{
+	width:200px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	font-size:28px;
+}
+#noticelist{
+	width: 750px;
+	margin: 0 auto 50px;
+}
+#noticelist li{
+	clear:both;
+	padding-top:50px;
+}
+#noticelist li > div{
+	float: left;
+	margin-left:20px;
+}
+.uimg{
+	width:48px;
+	height:48px;
+	margin:0 auto;
+	background: url("/fair/ipad/img/user_other.png");
+}
+.contents{
+	width:500px;
+}
+.msg{
+	color:#1d1d1d;
+}
+.title,.uname,.datetime{
+	color:#999999;
+}

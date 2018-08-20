@@ -1,0 +1,86 @@
+.container{
+	position:relative;
+	width:948px;
+	margin:0 auto;
+}
+.container .colname{
+	width:100%;
+	height:42px;
+	text-align:center;
+	line-height:42px;
+}
+.container .fields, .container .rowsort, .container .colsort{
+    width:100%;
+	height:100px;
+	position:relative;
+	border:1px solid #CCC;
+	border-radius:3px;
+}
+.container .fields{
+	height:230px;
+}
+.container .sort{
+	margin-top:25px;
+}
+.container .fields span,.container .rowsort span,.container .colsort span{
+	background: none repeat scroll 0 0 #fff;
+    display: inline-block;
+    font-weight: bold;
+    left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top: -10px;
+}
+.container .fields div span,.container .rowsort div span,.container .colsort div span{
+	font-weight: normal;
+	left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    top: 0px;
+    width:50px;
+    background: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.container .rowsort div img,.container .colsort div img{
+	position: relative;
+    top: -10px;
+}
+.container .fields img{
+	display: none;
+}
+.container .fields div,.container .rowsort div, .container .colsort div{
+	background-image: url("/fair/ipad/grid/images/button4.png");
+	background-size:100% 80%;
+	background-repeat:no-repeat;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+    line-height: 30px;
+    padding-left: 37px;
+    position: absolute;
+    text-align: center;
+    width: 88px;
+}
+
+.container .trash {
+    background-image: url("/fair/ipad/grid/images/rubsh.png");
+    height: 50px;
+    left: 0;
+    overflow: hidden;
+    position: relative;
+    width: 50px;
+	top:2px;
+	background-size:80% auto;
+    background-repeat:no-repeat;
+}
+.container .trash div {display:none;}
+.submit {
+    margin-top: 0px;
+    text-align: right;
+    
+}
+.submit button:last-child{margin-right:5px;}

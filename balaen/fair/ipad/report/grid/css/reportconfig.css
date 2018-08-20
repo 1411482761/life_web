@@ -1,0 +1,135 @@
+/*@charset utf-8*/
+body{position:relative;width:960px;margin:0 auto;}
+ul,li{list-style:none;padding:0;margin:0}
+
+/*container*/
+.container{/*border:1px solid #CCC;*/width:612px;position:absolute;top:35px;left:0;height:auto;}
+
+
+.container .vertical,.container .horizontal,.container .metric{
+	border:1px solid #CCC;
+	border-radius:3px;
+	width:600px;
+	height:165px;
+	position:relative;
+	margin:0 auto;
+	/* overflow: auto;  */
+}
+.container .vertical{
+	height:130px;
+}
+.container .horizontal{
+	height:100px;
+}
+.container .metric{
+	height:310px;
+}
+.container div span {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width:46px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.container div span.vtitle,.container div span.htitle,.container div span.mtitle{
+	background: none repeat scroll 0 0 #fff;
+	 font-weight: bold;
+	left: 40px;
+	top: -10px;
+}
+/* .container div span.vtitle{
+	top: 32px;
+}
+.container div span.htitle{
+	top: 246px;
+}
+.container div span.mtitle{
+	top: 458px;
+} */
+
+.container div span i {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 10px;
+}
+.container .horizontal,.container .metric{margin-top:22px;}
+.container .trash {
+    background-image: url("../images/rubsh.png");
+    background-size:50% auto;
+    background-repeat:no-repeat;
+    height: 37px;
+    left: 0;
+    overflow: hidden;
+    position: relative;
+    width: 70px;
+	top:2px;
+}
+.container .trash div {display:none;}
+
+.container .vertical div,.container .horizontal div,.container .metric div{
+	background-image: url("../images/button4.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 37px;
+    position: absolute;
+    text-align: center;
+    width: 66px;
+}
+.container div input{
+
+}
+.container .vertical div p,.container .horizontal div p,.container .metric div p{
+	display: none;
+}
+.selected{
+	background-image: url("../images/button5.png") !important;
+}
+.container .vertical .ss-placeholder-child,.container .horizontal .ss-placeholder-child,.container .metric .ss-placeholder-child {background: transparent;}
+/*list*/
+.list{width:202px;height:588px;border:1px solid #CCC;border-top-left-radius:3px;border-bottom-left-radius:3px;border-bottom-right-radius:3px;position:absolute;top:35px;left:612px;}
+.list .column div{
+	background-image: url("../images/button1.png");
+	background-size:100% 80%;
+	background-repeat:no-repeat;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    width: 90px;
+}
+.list .column div input{display:none;}
+/*.submit*/
+.submit{
+	margin-right: 124px;
+    position: absolute;
+    right: 0;
+    top: 630px;
+    z-index: 1;
+}
+.container input.updesc{
+    height: 18px;
+    text-align: center;
+    width: 65px;
+    margin-left:-10px;
+    margin-top:1px;
+	font-size:12px;
+	border:0px;
+}
+.container div.ss-active-child{
+	
+}
+.container div.ss-active-child input{
+	vertical-align:36%;
+}

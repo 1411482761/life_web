@@ -1,0 +1,207 @@
+#nomatched{
+    top: 90px !important;
+	height: 634px !important;
+}
+#view002-title{
+	position: absolute;
+	z-index: 1;
+	top: 8px;
+	left: 50%;
+	margin-left: -230px;
+	width: 460px;
+	height: 36px;
+	text-align: center;
+}
+#view002-buttons{
+	position: relative;
+	width: 278px;
+	height: 44px;
+	background-color: #101010;
+}
+.view002-button{
+	bottom: 3px;
+	width: 74px;
+	height: 32px;
+	display: block;
+	border: 1px solid #5F5F5F;
+	-webkit-border-radius: 18px;
+	background-color: #5e5e5e;
+	text-align: center;
+	font-size: 15px;
+}
+.view002-button-value{
+	position: relative;
+	top: 50%;
+	margin-top: -11px;
+	width:74px;
+	height: 22px;
+}
+#view002-back{
+	position: absolute;
+	left: 16px;
+}
+#view002-homepage{
+	position: absolute;
+	left: 106px;
+}
+#view002-refresh{
+	position: absolute;
+	left: 196px;
+}
+.view002-rpt{
+	position: absolute;
+	top: 50px;
+	width: 1024px;
+	height: 676px;
+}
+#view002-dimensions{
+	position: relative;
+	width: 1002px;
+	left: 50%;
+	margin-left: -501px;
+	height: 34px;
+	-webkit-border-radius: 10px;
+	border: 1px solid #5F5F5F;
+}
+#view002-dimensions ul li{
+	position: relative;
+	width: 88px;
+	height: 22px;
+	margin-top: 6px;
+	margin-left: 11px;
+	-webkit-border-radius: 2px;
+}
+.button{
+	background: url('/fair/ipad/img/button.png') repeat-x;
+}
+.active{
+	background: url('/fair/ipad/img/active.png') repeat-x;
+}
+#view002-dimensions ul li .dimensionname{
+	position: absolute;
+	z-index: 8;
+	width: 90px;
+	height: 18px;
+	top: 50%;
+	left: 50%;
+	margin-left: -45px;
+	margin-top: -9px;
+	text-align: center;
+}
+#view002-pie-select,#view002-column-select{
+	padding-left: 12px;
+	color: #101010;
+	font-size: 15px;
+}
+#view002-pie-select{
+	width: 130px;
+}
+#view002-column-select{
+	position: absolute;
+	right: 0px;
+	width: 150px;
+}
+.view002-max{
+	position: absolute;
+	background-color: #f49d56;
+	text-align: center;
+	width: 88px;
+	height: 20px;
+	-webkit-border-radius: 10px;
+	right: 0px;
+	top: -32px;
+}
+#view002-details{
+	position: relative;
+	top: 6px;
+	width: 1024px;
+	height: 634px;
+	background-color: #111111;
+}
+#view002-charts{
+	position: relative;
+	width: 1024px;
+	height: 392px;
+}
+#view002-pie{
+	position: absolute;
+	width: 482px;
+	height: 392px;
+}
+#view002-pie-buttons{
+	position: absolute;
+	width: 448px;
+	height: 30px;
+	left: 14px;
+	top: 42px;
+}
+#view002-column{
+	position: absolute;
+	right: 0px;
+	width: 542px;
+	height: 392px;
+}
+#view002-column-buttons{
+	position: absolute;
+	width: 240px;
+	height: 30px;
+	right: 20px;
+	top: 42px;
+}
+#view002-table-max{
+	position: relative;
+	background-color: #f49d56;
+	font-size: 14px;
+	width: 88px;
+	height: 20px;
+	left: 916px;
+	text-align: center;
+	font-size: 12px;
+	-webkit-border-radius: 10px;
+}
+#view002-table{
+	position: relative;
+	overflow: auto;
+	width: 1020px;
+	height: 214px;
+	top: 4px;
+	left: 4px;
+	margin-bottom: 6px;
+}
+#view002-table table{
+	width: 100%;
+	border-collapse:collapse;
+	border: 2px solid #A6A6A6;
+}
+#view002-table td{
+	padding: 2px 4px;
+	border: 1px solid #A6A6A6;
+}
+#view002-table thead td{
+	text-align: center;
+	font-weight: bold;
+}
+.sorted{
+	background: no-repeat transparent;
+	background-position: 99%;
+}
+.up{
+	background-image: url('/fair/ipad/img/upsimple.png');
+}
+.down{
+	background-image: url('/fair/ipad/img/downsimple.png');
+}
+#view002-table tbody td{
+	text-align: right;
+}
+#view002-table tbody .sort-desc{
+	word-wrap: keep-all;
+	text-align: left;
+}
+#view002-loading{
+	height: 676px;
+}
+#view002-nomatched{
+	top: 90px;
+	height: 636px;
+}

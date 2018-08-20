@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="apple-touch-fullscreen" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<meta http-equiv="Cache-Control" content="max-age=0,no-store,no-cache,must-revalidate" />
+		<meta http-equiv="Expires" content= "-1" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		
+		<script type="text/javascript" src="/nea/core/js/prototype.js"></script>
+		<script type="text/javascript" src="/nea/core/js/jquery1.7.1/jquery.js"></script>
+		<script type="text/javascript">jQuery.noConflict();</script>
+		<script type="text/javascript" src="/nea/core/js/rest.js"></script>
+		
+		<link type="text/css" rel="StyleSheet" href="/fair/ipad/css/scanmaccontrol.css" />
+		
+		<script type="text/javascript" src="/fair/ipad/js/scanmaccontrol.js"></script>
+		
+		<title>二维码扫描(上海贯信信息技术有限公司)</title>
+	</head>
+	<body>
+		<div id="container">
+			<div id="scan">
+				<input id="sv" type="text"/>
+				<input id="temp" type="button"/>
+			</div>
+			<div id="message">
+				<div id="result"></div>
+				<table class="status" align="center">
+					<tr><td>&nbsp;</td></tr>
+					<tr>
+						<td width="20%" style="padding-left:12px;" nowrap="nowrap">设备:</td>
+					</tr>
+					<tr>
+						<td id="macaddr"></td>
+					</tr>
+					<tr>
+						<td style="padding-top:6px;padding-left:12px;" nowrap="nowrap">状态:</td>
+					</tr>
+					<tr>
+						<td id="islocked"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="loading"><!-- <img alt="" src="/fair/ipad/images/img-loading.gif"/> --></div>
+	</body>
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			//scanmac.macValidate();
+		});
+	</script>
+</html>

@@ -1,0 +1,69 @@
+body{
+	font-size: 12px;
+}
+li{
+	float: left;	
+}
+.kpi-title{
+	position: absolute;
+	top: 50%;
+	margin-top: -12px;
+	width: 1024px;
+	height: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#view002-nomatched{
+	top: 50px;
+	height: 676px;
+}
+.viewport{
+ 	position: absolute;
+ 	display: none;
+	z-index: 13;
+ 	width: 1024px;
+	height: 722px;
+	background-color: #101010;
+}
+.kpi-banner{
+	position: absolute;
+	z-index: 1;
+	width: 1024px;
+	height: 44px;
+}
+#kpi-filter{
+	position: fixed;
+	display: none;
+	right: 100px;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	z-index: 999;
+   	top: 7px;
+    font-size: 15px;
+    text-align: center;
+}
+#container{
+	position: relative;
+	z-index: 1;
+	width: 1024px;
+	height: 748px;
+}
+#viewtype{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 722px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#viewports{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	top: 44px;
+	height: 678px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}

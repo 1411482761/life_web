@@ -1,0 +1,42 @@
+<ion-modal-view view-cache="false">
+
+    <ion-header-bar class="bar bar-header bar-light">
+        <button ng-click="printOrderService.reject();" class="button button-clear icon ion-ios-arrow-back"></button>
+        <h1 class="titleClass title">打印设置相关</h1><button ng-click="printOrderService.resolve()" ng-disabled="printOrderService.isPrint" ng-bind="printOrderService.isPrintButton" class="button button-small button-positive" style="margin-left: 80%;width: 100px"></button>
+    </ion-header-bar>
+
+
+    <ion-content>
+
+
+        <div style="float:left;width:50%">
+            <div class="item item-divider">
+                请选择打印机:
+            </div>
+
+            <ion-radio ng-repeat="item in findPrintparam"
+                       ng-model="data.printer"
+                       ng-value="item"
+                    >
+                {{ item }}
+            </ion-radio>
+        </div>
+
+        <div style="float:right;width:50%">
+            <div class="item item-divider">
+                请选择打印模板:
+            </div>
+
+            <ion-radio ng-repeat="item in printTemplates"
+                       ng-model="data.templete"
+                       ng-value="item"
+                       name="other"
+                    >
+                {{ item.name }}
+            </ion-radio>
+        </div>
+    </ion-content>
+
+
+
+</ion-modal-view>

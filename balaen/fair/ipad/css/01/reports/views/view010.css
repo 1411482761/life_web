@@ -1,0 +1,213 @@
+#view010-banner{
+	position: absolute;
+	background: #101010;
+	top: 0px;
+}
+#view010-buttons{
+	position: relative;
+	width: 228px;
+	height: 44px;
+}
+#view010-buttons ul{
+	position: relative;
+	margin-left: 12px;
+	top: 8px;
+	height: 32px;
+}
+.view010-button{
+	position: relative;
+	bottom: 3px;
+	width: 74px;
+	height: 100%;
+	display: block;
+	border: 1px solid #5F5F5F;
+	-webkit-border-radius: 18px;
+	background-color: #5e5e5e;
+	text-align: center;
+	font-size: 15px;
+	margin-right: 24px;
+}
+.view010-button-value{
+	position: absolute;
+	top: 50%;
+	margin-top: -11px;
+	width:74px;
+	height: 22px;
+}
+#view010-filter{
+	display: none;
+	position: absolute;
+	left: 218px;
+	top: 16px;
+	width: 208px;
+	height: 20px;
+}
+#view010-filter span{
+	position: relative;
+	display: inline-block;
+	top: -2px;
+	height: 12px;
+	line-height: 12px;
+}
+#view010-title{
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	width: 224px;
+	height: 22px;
+	z-index: 20;
+	top: 50%;
+	left: 512px;
+	margin-top: -11px;
+	margin-left: -112px;
+}
+#view010-container{
+	position: absolute;
+	top: 50px;
+	width: 1020px;
+	height: 676px;
+	background: #000000;
+}
+#view010-container table{
+	table-layout: fixed;
+	width: 99.6%;
+}
+#view010-container table td{
+	overflow: hidden;
+}
+.view010-basic{
+	position: relative;
+	left: 4px;
+	top: 0px;
+}
+div#view010-table{
+	z-index: 10;
+	height: 570px;
+	overflow: hidden;
+}
+#view010-footer table tfoot td{
+	font-weight: normal !important;
+	text-align: left;
+}
+div#view010-synchronize{
+	position: absolute;
+   	top: 7px;
+	right: 100px;
+	z-index: 200;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    -webkit-border-radius: 18px;
+	border: 1px solid #5F5F5F;
+	background-color: #5E5E5E;
+}
+.tooltip{
+	display: none;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 888;
+	border: 0px;
+}
+#view010-tooltip span{
+	position: absolute;
+	padding: 4px 14px;
+	color: #EEEEEE;
+	background-color: #02445b;
+	-webkit-user-select: none;
+	border: 1px solid #EEEEEE;
+}
+#view010-toolbars{
+	display: none;
+	position: relative;
+	width: 100%;
+	height: 40px;
+	margin-top: 14px;
+	z-index: 999;
+}
+div.toolbar{
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	padding: 0 12px;
+    -webkit-border-radius: 18px;
+	border: 1px solid #5F5F5F;
+	background-color: #5E5E5E;
+}
+div.toolbardesc{
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+}
+div.toolbarimg{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+}
+div#view010-prev{
+	display: none;
+	left: 12px;
+}
+div#view010-prev .toolbardesc{
+	float: left;
+}
+div#view010-prev .toolbarimg{
+	left: 12px;
+	background: url('/fair/ipad/img/order_prev.png');
+}
+div#view010-prev .toolbardesc{
+	float: right;
+}
+div#view010-next .toolbarimg{
+	right: 12px;
+	background: url('/fair/ipad/img/order_next.png');
+}
+div#view010-next .toolbardesc{
+	float: left;
+}
+div#view010-page{
+	position: absolute;
+	width: 218px;
+	height: 40px;
+	left: 50%;
+	margin-left: -109px;
+}
+div#view010-current{
+	position: absolute;
+	left: 0px;
+	width: 86px;
+	height: 40px;
+	line-height: 40px;
+}
+div#view010-current select{
+	position: absolute;
+	display: block;
+	height: 24px;
+	top: 50%;
+	font-size: 18px;
+	margin-top: -12px;
+}
+div#view010-total{
+	position: absolute;
+	right: 0px;
+	width: 76px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+}
+div#view010-total span{
+	font-weight: bold;
+}
+div#view010-next{
+	right: 12px;
+}
+#view010-nomatched{
+	top: 90px;
+	height: 636px;
+}
+#view010-loading{
+	top: 50px;
+	height: 676px;
+}

@@ -1,0 +1,22 @@
+.view011-button{
+	border: 1px solid #5F5F5F;
+	-webkit-border-radius: 18px;
+	background-color: #5e5e5e;
+}
+.view011-max{
+	background-color: #f49d56;
+	-webkit-border-radius: 10px;
+}
+#view011-details{
+	background-color: #111111;
+}
+#view011-table-max{
+	background-color: #f49d56;
+	-webkit-border-radius: 10px;
+}
+.active{
+	background: url('/fair/ipad/img/01/active.png') repeat-x;
+}
+.view011-table-footer{
+	background-color: #4e4f4e;
+}

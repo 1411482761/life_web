@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+.head {
+	height: 42px;
+}
+
+.th {
+	border: white 1px solid;
+	background-color: #9A9A9A;
+	width: 90px;
+	height: 40px;
+	float: left;
+}

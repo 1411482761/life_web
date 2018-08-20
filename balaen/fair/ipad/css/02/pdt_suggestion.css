@@ -1,0 +1,10 @@
+.title{
+	background-color: #878787;
+	-webkit-border-radius: 4px;
+	color: #FFFFFF;
+}
+#container{
+	width: 99.7%;
+	height: 994px;
+	background: url("/fair/ipad/img/02/background1.jpg");
+}
